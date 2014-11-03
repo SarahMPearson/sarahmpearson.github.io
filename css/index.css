@@ -1,30 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
-
-// http://clrs.cc/
-
-@NAVY:    #001F3F;
-@BLUE:    #0074D9;
-@AQUA:    #7FDBFF;
-@TEAL:    #39CCCC;
-@OLIVE:   #3D9970;
-@GREEN:   #2ECC40;
-@LIME:    #01FF70;
-@YELLOW:  #FFDC00;
-@ORANGE:  #FF851B;
-@RED:     #FF4136;
-@MAROON:  #85144B;
-@FUCHSIA: #F012BE;
-@PURPLE:  #B10DC9;
-@BLACK:   #111111;
-@GRAY:    #AAAAAA;
-@SILVER:  #DDDDDD;
+@import url(http://fonts.googleapis.com/css?family=News+Cycle:400,700);
 
 body{
-  background-image: url('/img/thistleFarm915.jpg');
-  background-size: cover;
-  margin-bottom: 40px;
-  background-color: rgba(255, 152, 50, .8);
+  //background-image: url('img/thistleFarm915.jpg');
+  //background-size: cover;
+  //margin-bottom: 40px;
+  background-color: white;
 }
 
 input.ng-invalid, select.ng-invalid{
@@ -51,6 +33,30 @@ input.ng-invalid, select.ng-invalid{
   text-shadow: 1px 3px 3px rgba(0,0,0,.4);
 }
 
-img {
-  max-width: 300px;
+img#photo1 {
+  position: absolute;
+  top: 300%;
+  left: 50%;
+  margin-right: -50%;
+  height: 500%;
+  transform: translate(-50%, -50%)
+
+
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover{
+  text-decoration: none;
+  color: rgba(0,0,0, .7);
+}
+
+ul#links > li {
+  display: inline-block;
+  margin: 2% 10%;
+  text-align: center;
 }

@@ -2,18 +2,19 @@ doctype html
 html
   head
     meta(charset='utf-8')
-    link(href='/vendor/bootstrap/dist/css/bootstrap.css', rel='stylesheet')
-    link(href='/vendor/fontawesome/css/font-awesome.css', rel='stylesheet')
+    link(href='vendor/bootstrap/dist/css/bootstrap.css', rel='stylesheet')
+    link(href='css/index.css', rel='stylesheet')
+    link(href='vendor/fontawesome/css/font-awesome.css', rel='stylesheet')
     title  Sarah Pearson
   body
     include nav
     .row
-      .col-md-6 
-        img#photo1(img='img', src='/img/SarahPblurry.jpg')
-      .col-md-6 
+      .col-xs-12 
+        img#photo1(img='img', src='img/justMe.jpg')
+        ul#links
+          li: a(href='https://github.com/SarahMPearson', target='_blank').fa.fa-github.fa-4x
+          li: a(href='https://www.linkedin.com/in/sarahpearson', target='_blank').fa.fa-linkedin-square.fa-4x
 
-        
-      
       
 
   
