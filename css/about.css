@@ -6,7 +6,7 @@
   background-color: white;
 }
 
-p#bio{
+.bio{
   position: absolute;
   font-family: 'Oswald', sans-serif;
   font-size: 1.25em;
@@ -31,6 +31,58 @@ p#bio{
   /* Internet Explorer */
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 
+}
+
+h2.bio {
+  position: absolute;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.25em;
+  line-height: 2.2;
+  top: 330px;
+  left: 20%;
+  right: 20%;
+  width: 60%;
+
+/* Safari */
+  -webkit-transform: rotate(-2deg);
+
+/*  Firefox */
+  -moz-transform: rotate(-2deg);
+
+/* IE */
+  -ms-transform: rotate(-2deg);
+
+/* Opera */
+  -o-transform: rotate(-2deg);
+
+/* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+ul.bio{
+  position: absolute;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.25em;
+  line-height: 2;
+  top: 30%;
+  left: 10%;
+  right: 20%;
+  width: 60%;
+
+/* Safari */
+  -webkit-transform: rotate(-.5deg);
+
+/*  Firefox */
+  -moz-transform: rotate(-.5deg);
+
+/* IE */
+  -ms-transform: rotate(-.5deg);
+
+/* Opera */
+  -o-transform: rotate(-.5deg);
+
+/* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
 #photo2 {
