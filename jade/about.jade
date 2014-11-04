@@ -4,7 +4,12 @@ html
     meta(charset='utf-8')
     link(href='vendor/bootstrap/dist/css/bootstrap.css', rel='stylesheet')
     link(href='css/index.css', rel='stylesheet')
+    link(href='css/about.css', rel='stylesheet')
     link(href='vendor/fontawesome/css/font-awesome.css', rel='stylesheet')
-    title  Sarah Pearson | About
-  body
-    p Sarah Pearson was born in Michigan.  An accomplished basketball player and artist.  She moved to Nashville, TN to attend Belmont University where she earned her Bachelor of Business Administration. She worked in the music industry for a number of years before deciding to attend Nashville Software School to follow her passion of web design and Front End Development.
+    title  Sarah Pearson
+  body   
+    include nav
+    .row
+      .col-xs-12
+        p#bio I was born in Michigan.  An accomplished basketball player, photographer and artist.  I moved to Nashville, TN to attend Belmont University where I earned my Bachelor of Business Administration. I worked in the music industry for a number of years before deciding to attend Nashville Software School to follow my passion of web design and font end development.     
+        img#photo2(img='img', src='img/paper.jpg')

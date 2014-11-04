@@ -1,0 +1,14 @@
+/****** ABOUT PAGE *************/
+
+.about{
+  background-color: white;
+}
+
+p#bio{
+  font-size: 25px;
+  max-width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 15%
+
+}

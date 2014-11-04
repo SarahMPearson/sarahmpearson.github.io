@@ -35,13 +35,11 @@ input.ng-invalid, select.ng-invalid{
 
 img#photo1 {
   position: absolute;
-  top: 300%;
+  top: 300px;
   left: 50%;
   margin-right: -50%;
-  height: 500%;
+  max-height: 500px;
   transform: translate(-50%, -50%)
-
-
 }
 
 a {
@@ -55,8 +53,23 @@ a:hover{
   color: rgba(0,0,0, .7);
 }
 
-ul#links > li {
-  display: inline-block;
-  margin: 2% 10%;
+/******* LINKS TO GITHUB AND LINKDIN ******/
+.fa-github:before{
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  margin-right: -150%;
+}
+.fa-linkedin-square:before {
+  position: absolute;
+  top: 25%;
+  margin-left: 75%;
+}
+
+.navbar.navbar-defaul.navbar-fixed-bottom{
+  font-size: 0.75em;
+}
+
+.panel-footer{
   text-align: center;
 }
