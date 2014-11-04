@@ -1,4 +1,4 @@
-.navbar.navbar-default(role='navigation', ng-controller='NavCtrl')
+.navbar.navbar-default(role='navigation')
   .container
     .navbar-header
       button.navbar-toggle(data-toggle='collapse', data-target='#bs-navbar-collapse')
@@ -6,12 +6,11 @@
         span.icon-bar
         span.icon-bar
         span.icon-bar
-      a.navbar-brand(href='/') Sarah Pearson
+      a.navbar-brand(href='index.html') Sarah Pearson
 
-    .nav.navbar.navbar-default.navbar-fixed-top
-    .container
+    .collapse.navbar-collapse#bs-navbar-collapse
       ul.nav.navbar-nav.navbar-right
-        li: a(href='/projects') Projects
+        li: a(href='projects.html') Projects
         li: a(href='about.html') About
         
     .navbar.navbar-defaul.navbar-fixed-bottom

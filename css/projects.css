@@ -1,0 +1,15 @@
+/*****  PROJECTS PAGE *******/
+
+img.photo3, .photo4{
+  margin-left: 30%;
+  margin-right: 30%;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+a.btn {
+  margin-left: 30%;
+  margin-right: 70%;
+  margin-top: 5%;
+}
