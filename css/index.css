@@ -32,7 +32,8 @@ input.ng-invalid, select.ng-invalid{
 }
 
 img#photo1 {
-  position: absolute;
+  /*position: absolute;*/
+  position: relative;
   top: 300px;
   left: 50%;
   margin-right: 50%;
@@ -72,9 +73,10 @@ a:hover{
   text-align: center;
 }
 
-p#words{
-  font-size: 800%;
-  margin-top: 10%;
+p.words{
+  display: inline-block;
+  font-size: 8em;
+  margin-top: 25%;
   margin-left: 10%;
   font-family: 'Amatic SC', cursive;
 }
