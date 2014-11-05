@@ -8,8 +8,28 @@ img.photo3, .photo4{
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
+img.pirate {
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+  max-height: 100%;
+  max-width: 50%;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+/*****  Github button ****/
 a.btn {
   margin-left: 30%;
   margin-right: 70%;
   margin-top: 5%;
+  margin-bottom: 1%;
+}
+
+/**** PLAY Button ****/
+
+#play{
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
