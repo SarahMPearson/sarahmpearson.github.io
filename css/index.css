@@ -99,6 +99,9 @@ p.words{
   font-family: 'Amatic SC', cursive;
   color: #6304B2;
 }
+.photographer{
+  color:#6304B2;
+}
 
 
 /******CAROUSEL ********/
@@ -108,7 +111,7 @@ p.words{
 }
 
 #sarahCarousel{
-  width: 75%; 
+  width: 60%;
   margin: auto;
 }
 
