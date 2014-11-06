@@ -5,7 +5,6 @@
 
 body{
   background-color: white;
-  padding: 70px;
 }
 
 input.ng-invalid, select.ng-invalid{
@@ -68,7 +67,7 @@ a:hover{
 .navbar.navbar-default.navbar-fixed-bottom{
   font-size: 0.75em;
   text-align: right;
-  
+
 }
 
 .navbar-text{
@@ -90,10 +89,8 @@ p.fa.fa.twitter{
 }
 
 p.words{
-  font-size: 8em;
-  padding-top: 1%;
-  margin-left: 5%;
-  margin-right: 17%;
+  font-size: 4em;
   text-align: center;
   font-family: 'Amatic SC', cursive;
+  color: #6304B2;
 }

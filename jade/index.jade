@@ -7,22 +7,22 @@ html
     link(href='vendor/fontawesome/css/font-awesome.css', rel='stylesheet')
     title  Sarah Pearson
   body
-    .wrapper
-      .container
     include nav
-    .row
-      .col-xs-12 
-        a.link(href='https://github.com/SarahMPearson', target='_blank').fa.fa-github.fa-5x
-        a.link(href='https://www.linkedin.com/in/sarahpearson', target='_blank').fa.fa-linkedin-square.fa-5x 
+    .container
+      .page-header
+        .row
+          .col-xs-2.col-md-2
+            a.link(href='https://github.com/SarahMPearson', target='_blank').fa.fa-github.fa-5x
+          .col-xs-8.col-md-8
+            p.words Web Developer | Designer | Photographer
+          .col-xs-2.col-md-2
+            a.link(href='https://www.linkedin.com/in/sarahpearson', target='_blank').fa.fa-linkedin-square.fa-5x 
     .row
       .col-xs-12 
         img#photo1(img='img', src='img/spCape2.png')
-          
-    //.row
-      //.col-xs-12
-        .container
-          p.words Photographer &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Designer
-        
+
+    script(src='vendor/jquery/dist/jquery.js')
+    script(src='vendor/bootstrap/dist/js/bootstrap.min.js')
 
 
 
