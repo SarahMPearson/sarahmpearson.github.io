@@ -1,0 +1,90 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    link(href='vendor/bootstrap/dist/css/bootstrap.css', rel='stylesheet')
+    link(href='css/index.css', rel='stylesheet')
+    link(href='vendor/fontawesome/css/font-awesome.css', rel='stylesheet')
+    title  Sarah Pearson | Gallery
+  body
+    #sarahCarousel.carousel.slide(data-ride='carousel')
+      ol.carousel-indicators
+        li.active(data-target='#sarahCarousel', data-slide-to='0')
+        li(data-target='#sarahCarousel', data-slide-to='1')
+        li(data-target='#sarahCarousel', data-slide-to='2')
+      .carousel-inner(role='listbox')
+        .item.active
+          img.img-responsive.car(src='img/020312_jc_7669 2.jpg', alt='Joanna Cotten')
+          .carousel-caption
+            | Joanna Cotten @ 3rd and Lindsley
+        .item
+          img.img-responsive.car(src='img/020312_jc_7709 2.jpg', alt='Joanna Cotten')
+          .carousel-caption
+            | Joanna Cotten @ 3rd and Lindsley
+        .item
+          img.img-responsive.car(src='img/020312_jc_7719 2.jpg', alt='Joanna Cotten')
+          .carousel-caption
+            | Joanna Cotten @ 3rd and Lindsley
+        .item
+          img.img-responsive.car(src='img/020312_jc_7775 2.jpg', alt='Joanna Cotten')
+          .carousel-caption
+            | Joanna Cotten @ 3rd and Lindsley
+        .item
+          img.img-responsive.car(src='img/031112_wjam_8661 bw.jpg', alt='Winter Jam')
+          .carousel-caption
+            | Winter Jam 2012
+        .item
+          img.img-responsive.car(src='img/031112_wjam_9019.jpg', alt='Winter Jam')
+          .carousel-caption
+            | Winter Jam 2012
+        .item
+          img.img-responsive.car(src='img/092411_0361.jpg', alt='')
+          .carousel-caption
+            | Wedding
+        .item
+          img.img-responsive.car(src='img/092411_0415.jpg', alt='')
+          .carousel-caption
+            | Wedding
+        .item
+          img.img-responsive.car(src='img/092411_0507.jpg', alt='')
+          .carousel-caption
+            | Wedding
+        .item
+          img.img-responsive.car(src='img/092411_0602.jpg', alt='')
+          .carousel-caption
+            | Wedding
+        .item
+          img.img-responsive.car(src='img/ar 04 29 14 6825.jpg', alt='')
+          .carousel-caption
+            | Amy Ray at 3rd and Lindsley, April 29, 2014
+        .item
+          img.img-responsive.car(src='img/bc opry 2013 490.jpg', alt='')
+          .carousel-caption
+            | Brandy Clark at the Grand Ole Opry
+        .item
+          img.img-responsive.car(src='img/dsc_5307.jpg', alt='')
+          .carousel-caption
+            | Dispatch
+        .item
+          img.img-responsive.car(src='img/dsc_5318.jpg', alt='')
+          .carousel-caption
+            | Dispatch
+        .item
+          img.img-responsive.car(src='img/dsc_5324.jpg', alt='')
+          .carousel-caption
+            | Dispatch
+        .item
+          img.img-responsive.car(src='img/thistle farm 915.jpg', alt='')
+          .carousel-caption
+            | Thistle Farms Audience Shot
+
+      a.left.carousel-control(href='#sarahCarousel', role='button', data-slide='prev')
+        span.glyphicon.glyphicon-chevron-left
+        span.sr-only Previous
+      a.right.carousel-control(href='#sarahCarousel', role='button', data-slide='next')
+        span.glyphicon.glyphicon-chevron-right
+        span.sr-only Next
+    
+    script(src='vendor/jquery/dist/jquery.js')
+    script(src='vendor/bootstrap/dist/js/bootstrap.min.js')
