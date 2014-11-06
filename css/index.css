@@ -88,6 +88,11 @@ p.fa.fa.twitter{
   top: 5px;
 }
 
+#medium{
+  max-width: 35%;
+  margin-top: 5%;
+}
+
 p.words{
   font-size: 4em;
   text-align: center;
