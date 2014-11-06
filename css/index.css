@@ -65,14 +65,9 @@ a:hover{
   margin-left: 75%;
 }
 
-.navbar.navbar-defaul.navbar-fixed-bottom{
+.navbar.navbar-default.navbar-fixed-bottom{
   font-size: 0.75em;
-}
-
-.panel-footer{
-  text-align: center;
-  margin-bottom: -15px;
-  margin-top: 10px;
+  
 }
 
 p.words{
@@ -82,12 +77,4 @@ p.words{
   margin-right: 10%;
   text-align: center;
   font-family: 'Amatic SC', cursive;
-}
-
-footer {
-  font-size: 0.75em;
-  text-align: center;
-  clear: both;
-  padding-top: 50px;
-  color: #ccc;
 }
