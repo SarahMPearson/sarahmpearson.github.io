@@ -93,6 +93,12 @@ p.fa.fa.twitter{
   margin-top: 5%;
 }
 
+#medium:hover{
+  text-decoration: none;
+  color: rgba(0,0,0, .7);
+
+}
+
 p.words{
   font-size: 4em;
   text-align: center;
