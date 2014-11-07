@@ -5,6 +5,7 @@
 
 body{
   background-color: white;
+  margin-bottom: 5%;
 }
 
 input.ng-invalid, select.ng-invalid{
@@ -67,7 +68,6 @@ a:hover{
 .navbar.navbar-default.navbar-fixed-bottom{
   font-size: 0.75em;
   text-align: right;
-
 }
 
 .navbar-text{
@@ -101,6 +101,9 @@ p.words{
 }
 .photographer{
   color:#6304B2;
+}
+a.photographer:hover{
+  font-weight: bold;
 }
 
 
