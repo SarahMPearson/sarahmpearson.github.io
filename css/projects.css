@@ -16,6 +16,7 @@ img.photo3, .photo4{
        -o-transition: all 1s ease;
       -ms-transition: all 1s ease;
           transition: all 1s ease;
+
 }
 
 img.photo3, .photo4:hover{
@@ -24,6 +25,7 @@ img.photo3, .photo4:hover{
     -ms-transform:scale(1.25); /* IE 9 */
     -o-transform:scale(1.25); /* Opera */
      transform:scale(1.25);
+
 }
 
 .capstone{
@@ -82,11 +84,18 @@ a.btn {
   margin-right: auto;
 }
 
+
 #hoppyGit{
   display: inline-block;
   margin-top: 2%;
   margin-left: 50%;
   margin-right: auto;
+}
+
+#hoppyGit:hover:{
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 #caddyGit{

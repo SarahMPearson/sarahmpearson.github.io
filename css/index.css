@@ -104,6 +104,7 @@ p.words{
 }
 a.photographer:hover{
   font-weight: bold;
+  color: red;
 }
 
 
