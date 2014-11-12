@@ -3,6 +3,14 @@
 @import url(http://fonts.googleapis.com/css?family=News+Cycle:400,700);
 @import url(http://fonts.googleapis.com/css?family=Amatic+SC);
 
+/* css reset */
+#element{
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  line-height:1;
+}
+
 body{
   background-color: white;
   margin-bottom: 5%;
