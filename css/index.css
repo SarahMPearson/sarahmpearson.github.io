@@ -41,12 +41,10 @@ input.ng-invalid, select.ng-invalid{
 }
 
 img#photo1 {
-  position: absolute;
-  top: 455px;
-  left: 50%;
-  margin-right: 50%;
+  /*position: absolute; */
+  top: 250px;
   max-height: 500px;
-  transform: translate(-50%, -50%)
+  /*transform: translate(-50%, -50%) */
 }
 
 a {
