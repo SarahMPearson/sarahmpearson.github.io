@@ -43,7 +43,7 @@ input.ng-invalid, select.ng-invalid{
 img#photo1 {
   /*position: absolute; */
   top: 250px;
-  max-height: 500px;
+  max-height: 700px;
   /*transform: translate(-50%, -50%) */
 }
 
@@ -88,15 +88,15 @@ a:hover{
   text-align: center;
 }
 
-p.fa.fa.twitter{
+.fa.fa.twitter{
   font-size: 2em;
   display: inline-block;
   top: 5px;
 }
 
 #medium{
-  max-width: 35%;
-  margin-top: 5%;
+  max-width: 25%;
+  margin-top: 7%;
 }
 
 #medium:hover{
