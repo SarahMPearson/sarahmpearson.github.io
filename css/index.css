@@ -2,6 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 @import url(http://fonts.googleapis.com/css?family=News+Cycle:400,700);
 @import url(http://fonts.googleapis.com/css?family=Amatic+SC);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200);
 
 /* css reset */
 #element{
@@ -26,15 +27,17 @@ input.ng-invalid, select.ng-invalid{
 }
 
 .navbar-default .navbar-brand {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  /*font-family: 'Yanone Kaffeesatz', sans-serif;*/
   font-size: 55px;
   color: black;
   font-weight: bolder;
   padding: 15px;
 }
 .navbar-default .navbar-nav > li {
-  font-size: 120%;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  /*font-family: 'Open Sans Condensed', sans-serif;*/
 }
 .navbar-default .navbar-nav > li > a:hover {
   text-shadow: 1px 3px 3px rgba(0,0,0,.4);
@@ -75,7 +78,6 @@ a:hover{
   font-size: 0.75em;
   text-align: right;
 }
-
 .navbar-text{
   font-size: 1em;
   display: inline-block;

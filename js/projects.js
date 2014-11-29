@@ -1,14 +1,14 @@
 'use strict';
 
-$(function(){
+$(document).ready(function(){
    $('.capstone').mouseenter(function(){
-       $(this).animate({
-           height: '+=10%'
+       $(this).animate(function(){
+         $(this).height(10);
        });
    });
    $('.capstone').mouseleave(function(){
-       $(this).animate({
-           height: '-=10px'
+       $(this).animate(function(){
+         $(this).height(10);
        });
    });
 });

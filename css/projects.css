@@ -82,7 +82,17 @@ a.btn {
   margin-top: 2%;
   margin-left: 50%;
   margin-right: auto;
+  margin-bottom: 1%;
 }
+
+#hoppy2{
+  display: inline-block;
+  margin-top: 2%;
+  margin-left: 50%;
+  margin-right: auto;
+  margin-bottom: 2%;
+}
+
 
 
 #hoppyGit{
