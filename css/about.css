@@ -11,7 +11,7 @@
   font-family: 'Oswald', sans-serif;
   font-size: 1.5em;
   line-height: 2.2;
-  top: 100px;
+  top: 8%;
   left: 20%;
   right: 20%;
   width: 60%;
@@ -31,10 +31,12 @@
   /* Internet Explorer */
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 
+
+
 }
 
-h2.bio {
-  position: absolute;*/
+/*h2.bio {
+  position: absolute;
   font-family: 'Oswald', sans-serif;
   font-size: 1.25em;
   line-height: 2.2;
@@ -42,24 +44,9 @@ h2.bio {
   left: 20%;
   right: 20%;
   width: 60%;
+  }*/
 
-/* Safari */
-  -webkit-transform: rotate(-2deg);
-
-/*  Firefox */
-  -moz-transform: rotate(-2deg);
-
-/* IE */
-  -ms-transform: rotate(-2deg);
-
-/* Opera */
-  -o-transform: rotate(-2deg);
-
-/* Internet Explorer */
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-}
-
-ul.bio{
+/*ul.bio{
   position: absolute;
   font-family: 'Oswald', sans-serif;
   font-size: 1.25em;
@@ -68,24 +55,15 @@ ul.bio{
   left: 10%;
   right: 20%;
   width: 60%;
+} */
 
-/* Safari */
-  -webkit-transform: rotate(-.5deg);
-
-/*  Firefox */
-  -moz-transform: rotate(-.5deg);
-
-/* IE */
-  -ms-transform: rotate(-.5deg);
-
-/* Opera */
-  -o-transform: rotate(-.5deg);
-
-/* Internet Explorer */
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-}
 
 #photo2 {
    position: relative;
    width: 100%; /* for IE 6 */
 }
+
+@media (max-width: 640px) { body {font-size:1.2rem;} }
+@media (min-width: 640px) { body {font-size:1rem;} }
+@media (min-width:960px) { body {font-size:1.2rem;} }
+@media (min-width:1100px) { body {font-size:1.5rem;} }
