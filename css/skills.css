@@ -1,3 +1,23 @@
+body{
+  background-image: url('img/trainSnow.png');
+  background-size: cover;
+}
+
+
 .skills{
   text-align: center;
+  margin-bottom: 5%;
+  /*color: white;*/
+}
+
+.panel-body {
+  background-color: rgba(255 , 255 , 255 , 0.1);
+}
+
+h3{
+  /*color: rgb(255,239,213);
+}
+
+h4{
+  color: rgb(255,239,213);
 }
