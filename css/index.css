@@ -44,10 +44,12 @@ input.ng-invalid, select.ng-invalid{
 
 img#photo1 {
   top: 250px;
-  max-height: 700px;
+  max-height: 100%;
+  max-width: 100%
 }
 
-@media (max-width: 600px){
+@media (max-width: 400px){
+  /* applies only if screen is smaller than 400px */
   img#photo1{
     display:none;
   }
