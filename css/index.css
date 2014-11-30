@@ -34,10 +34,11 @@ input.ng-invalid, select.ng-invalid{
 }
 
 .navbar-default .navbar-nav > li {
-  font-size: 100%;
+  font-size: 1em;
   font-family: 'Source Sans Pro', sans-serif;
   /*font-family: 'Open Sans Condensed', sans-serif;*/
 }
+
 .navbar-default .navbar-nav > li > a:hover {
   text-shadow: 1px 3px 3px rgba(0,0,0,.4);
 }
