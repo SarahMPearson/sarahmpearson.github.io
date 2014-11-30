@@ -76,8 +76,12 @@
   }
 
 @media (min-width: 640px) {
-  body {font-size:1rem;}
+  body {font-size:1rem;
+  }
   .bio1 {font-size: 1.5em;
+  }
+  .bio{
+    font-size: 2em;
   }
 }
 @media (min-width:900px) {
