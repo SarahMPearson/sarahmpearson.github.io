@@ -189,7 +189,7 @@ a.btn {
   font-size:3em;
   text-align: center;
   color: black;
-  background-color: rgba(0,0,0, 0.2);
+  /*background-color: rgba(0,0,0, 0.2);*/
 }
 
 /********* BORDER ********/
