@@ -28,19 +28,39 @@ input.ng-invalid, select.ng-invalid{
 
 .navbar-default .navbar-brand {
   font-family: 'Source Sans Pro', sans-serif;
-  /*font-family: 'Yanone Kaffeesatz', sans-serif;*/
   font-size: 280%;
   color: black;
 }
 
+@media (max-width: 1000px){
+  .navbar-default .navbar-brand {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 200%;
+    color: black;
+  }
+}
+
+@media (max-width: 550px){
+  .navbar-default .navbar-brand {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 150%;
+    color: black;
+  }
+
+}
 .navbar-default .navbar-nav > li {
   font-size: 1em;
   font-family: 'Source Sans Pro', sans-serif;
-  /*font-family: 'Open Sans Condensed', sans-serif;*/
 }
 
-.navbar-default .navbar-nav > li > a:hover {
+/*.navbar-default .navbar-nav > li > a:hover {
   text-shadow: 1px 3px 3px rgba(0,0,0,.4);
+}*/
+
+@media (min-width: 480px){
+  .navbar-default .navbar-nav > li > a:hover {
+    text-shadow: 1px 3px 3px rgba(0,0,0,.4);
+  }
 }
 
 img#photo1 {
@@ -53,6 +73,14 @@ img#photo1 {
   /* applies only if screen is smaller than 400px */
   img#photo1{
     display:none;
+  }
+}
+
+@media (max-width: 850px){
+  img#photo1 {
+    top: 250px;
+    /*max-height: 120%;*/
+    max-width: 150%
   }
 }
 
