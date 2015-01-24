@@ -3,6 +3,8 @@ html(lang='en')
   head
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    //meta(name="viewport' content=", width-device-width,='', initial-scale='1.0"/')
     link(rel='shortcut icon', href='favicon.ico')
     link(href='vendor/bootstrap/dist/css/bootstrap.css', rel='stylesheet')
     link(href='css/normalize2.css', rel='stylesheet')
@@ -14,7 +16,7 @@ html(lang='en')
   body
     include nav
     .container
-      .page-header
+      .page-header.hidden-xs
         .row.hidden-xs
           .col-xs-2.col-md-2
             a.link(href='https://github.com/SarahMPearson', target='_blank').fa.fa-github.fa-5x
@@ -28,26 +30,26 @@ html(lang='en')
                 | Photographer
           .col-xs-2.col-md-2
             a.link(href='https://www.linkedin.com/in/sarahpearson', target='_blank').fa.fa-linkedin-square.fa-5x 
-        .row.visible-xs
-          .col-xs-3.col-xs-offset-2
-            a.linkSMALL(href='https://github.com/SarahMPearson', target='_blank').fa.fa-github.fa-5x
-          .col-xs-3.col-xs-offset-2
-            a.linkSMALL(href='https://www.linkedin.com/in/sarahpearson', target='_blank').fa.fa-linkedin-square.fa-5x
-        .row.visible-xs
-          .col-xs-12
-            p.wordsSMALL 
-              a.photographer(href='projects.html')
-                | Web Developer | 
-        .row.visible-xs
-          .col-xs-12
-            p.wordsSMALL 
-              a.photographer(href='design.html')
-                | Designer | 
-        .row.visible-xs
-          .col-xs-12
-            p.wordsSMALL 
-              a.photographer(href='gallery.html')
-                | Photographer
+      .row.visible-xs
+        .col-xs-3.col-xs-offset-2
+          a.linkSMALL(href='https://github.com/SarahMPearson', target='_blank').fa.fa-github.fa-5x
+        .col-xs-3.col-xs-offset-2
+          a.linkSMALL(href='https://www.linkedin.com/in/sarahpearson', target='_blank').fa.fa-linkedin-square.fa-5x
+      .row.visible-xs#small
+        .col-xs-12
+          p.wordsSMALL 
+            a.photographer(href='projects.html')
+              | Web Developer | 
+      .row.visible-xs
+        .col-xs-12
+          p.wordsSMALL 
+            a.photographer(href='design.html')
+              | Designer | 
+      .row.visible-xs
+        .col-xs-12
+          p.wordsSMALL 
+            a.photographer(href='gallery.html')
+              | Photographer
 
     .row.hidden-xs
       .col-xs-4.col-xs-offset-4

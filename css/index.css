@@ -111,10 +111,18 @@ a:hover{
   font-size: 0.75em;
   text-align: right;
 }
-.navbar-text{
+
+/********************* COPYRIGHT INFO *******************/
+#copy{
   font-size: 1em;
   display: inline-block;
   text-align: center;
+}
+
+@media (max-width: 980px){
+  #copy{
+    float: left;
+  }
 }
 
 .navbar-text#email{
@@ -161,6 +169,10 @@ p.wordsSMALL{
   text-align: center;
   font-family: 'Amatic SC', cursive;
   color: #6304B2;
+}
+
+#small{
+  margin-top: 30%;
 }
 
 .photographer{

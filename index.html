@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--meta(name="viewport' content=", width-device-width,='', initial-scale='1.0"/')-->
     <link rel="shortcut icon" href="favicon.ico">
     <link href="vendor/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
     <link href="css/normalize2.css" rel="stylesheet">
@@ -29,11 +31,11 @@
     </nav>
     <div class="navbar navbar-default navbar-fixed-bottom">
       <div class="container"><a id="email" href="mailto:sarahp@me.com" class="fa fa-envelope-o fa-4x">&nbsp;</a>
-        <p class="navbar-text i fa fa-copyright">&nbsp; 2015 Sarah Pearson</p><a href="http://www.twitter.com/sasspearson" class="fa fa-twitter fa-4x">&nbsp;</a><a href="https://medium.com/@SarahMPearson"><img id="medium" src="img/medium.png" class="img-responsive"></a>
+        <p id="copy" class="navbar-text i fa fa-copyright">&nbsp; 2015 Sarah Pearson</p><a href="http://www.twitter.com/sasspearson" class="fa fa-twitter fa-4x">&nbsp;</a><a href="https://medium.com/@SarahMPearson" class="hidden-xs"><img id="medium" src="img/medium.png" class="img-responsive"></a>
       </div>
     </div>
     <div class="container">
-      <div class="page-header">
+      <div class="page-header hidden-xs">
         <div class="row hidden-xs">
           <div class="col-xs-2 col-md-2"><a href="https://github.com/SarahMPearson" target="_blank" class="link fa fa-github fa-5x"></a></div>
           <div class="col-xs-8 col-md-8">
@@ -41,24 +43,24 @@
           </div>
           <div class="col-xs-2 col-md-2"><a href="https://www.linkedin.com/in/sarahpearson" target="_blank" class="link fa fa-linkedin-square fa-5x"> </a></div>
         </div>
-        <div class="row visible-xs">
-          <div class="col-xs-3 col-xs-offset-2"><a href="https://github.com/SarahMPearson" target="_blank" class="linkSMALL fa fa-github fa-5x"></a></div>
-          <div class="col-xs-3 col-xs-offset-2"><a href="https://www.linkedin.com/in/sarahpearson" target="_blank" class="linkSMALL fa fa-linkedin-square fa-5x"></a></div>
+      </div>
+      <div class="row visible-xs">
+        <div class="col-xs-3 col-xs-offset-2"><a href="https://github.com/SarahMPearson" target="_blank" class="linkSMALL fa fa-github fa-5x"></a></div>
+        <div class="col-xs-3 col-xs-offset-2"><a href="https://www.linkedin.com/in/sarahpearson" target="_blank" class="linkSMALL fa fa-linkedin-square fa-5x"></a></div>
+      </div>
+      <div id="small" class="row visible-xs">
+        <div class="col-xs-12">
+          <p class="wordsSMALL"> <a href="projects.html" class="photographer">Web Developer | </a></p>
         </div>
-        <div class="row visible-xs">
-          <div class="col-xs-12">
-            <p class="wordsSMALL"> <a href="projects.html" class="photographer">Web Developer | </a></p>
-          </div>
+      </div>
+      <div class="row visible-xs">
+        <div class="col-xs-12">
+          <p class="wordsSMALL"> <a href="design.html" class="photographer">Designer | </a></p>
         </div>
-        <div class="row visible-xs">
-          <div class="col-xs-12">
-            <p class="wordsSMALL"> <a href="design.html" class="photographer">Designer | </a></p>
-          </div>
-        </div>
-        <div class="row visible-xs">
-          <div class="col-xs-12">
-            <p class="wordsSMALL"> <a href="gallery.html" class="photographer">Photographer</a></p>
-          </div>
+      </div>
+      <div class="row visible-xs">
+        <div class="col-xs-12">
+          <p class="wordsSMALL"> <a href="gallery.html" class="photographer">Photographer</a></p>
         </div>
       </div>
     </div>
