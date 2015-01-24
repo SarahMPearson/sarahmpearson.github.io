@@ -15,7 +15,7 @@ html(lang='en')
     include nav
     .container
       .page-header
-        .row
+        .row.hidden-xs
           .col-xs-2.col-md-2
             a.link(href='https://github.com/SarahMPearson', target='_blank').fa.fa-github.fa-5x
           .col-xs-8.col-md-8
@@ -28,6 +28,27 @@ html(lang='en')
                 | Photographer
           .col-xs-2.col-md-2
             a.link(href='https://www.linkedin.com/in/sarahpearson', target='_blank').fa.fa-linkedin-square.fa-5x 
+        .row.visible-xs
+          .col-xs-3.col-xs-offset-2
+            a.linkSMALL(href='https://github.com/SarahMPearson', target='_blank').fa.fa-github.fa-5x
+          .col-xs-3.col-xs-offset-2
+            a.linkSMALL(href='https://www.linkedin.com/in/sarahpearson', target='_blank').fa.fa-linkedin-square.fa-5x
+        .row.visible-xs
+          .col-xs-12
+            p.wordsSMALL 
+              a.photographer(href='projects.html')
+                | Web Developer | 
+        .row.visible-xs
+          .col-xs-12
+            p.wordsSMALL 
+              a.photographer(href='design.html')
+                | Designer | 
+        .row.visible-xs
+          .col-xs-12
+            p.wordsSMALL 
+              a.photographer(href='gallery.html')
+                | Photographer
+
     .row.hidden-xs
       .col-xs-4.col-xs-offset-4
         img.img-responsive#photo1(img='img', src='img/spCape2.png')

@@ -76,10 +76,9 @@ img#photo1 {
   }
 }
 
-@media (max-width: 850px){
+@media (max-width: 980px){
   img#photo1 {
     top: 250px;
-    /*max-height: 120%;*/
     max-width: 150%
   }
 }
@@ -105,7 +104,7 @@ a:hover{
 .fa-linkedin-square:before {
   position: absolute;
   top: 25%;
-  margin-left: 75%;
+  margin-left: 35%;
 }
 
 .navbar.navbar-default.navbar-fixed-bottom{
@@ -147,6 +146,23 @@ p.words{
   font-family: 'Amatic SC', cursive;
   color: #6304B2;
 }
+
+@media (max-width: 980px){
+  p.words{
+    font-size: 4.2em;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    color: #6304B2;
+  }
+}
+
+p.wordsSMALL{
+  font-size: 4em;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  color: #6304B2;
+}
+
 .photographer{
   color:#6304B2;
 }
