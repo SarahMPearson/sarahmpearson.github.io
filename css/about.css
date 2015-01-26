@@ -2,7 +2,7 @@
 
 /****** ABOUT PAGE *************/
 
-*.about{
+.about{
   background-color: white;
 }
 
@@ -33,6 +33,7 @@
 
 }
 
+/* ABOUT TITLE */
 .bio1{
   position: absolute;
   font-family: 'Oswald', sans-serif;
