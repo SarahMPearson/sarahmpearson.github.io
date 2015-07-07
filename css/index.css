@@ -208,3 +208,9 @@ a.photographer:hover{
   width: 100%; /* use this, or not */
   margin: auto;
 }
+
+a.clickPhotography{
+  text-align: center;
+  margin: 40px auto;
+  display: block;
+}
