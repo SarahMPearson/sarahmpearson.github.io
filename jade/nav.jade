@@ -1,24 +1,28 @@
 nav.navbar.navbar-default(role='navigation')
-  .container
-    .navbar-header
-      button.navbar-toggle(data-toggle='collapse', data-target='#bs-navbar-collapse')
-        span.sr-only Toggle navigation
-        span.icon-bar
-        span.icon-bar
-        span.icon-bar
-      a.navbar-brand(href='index.html') Sarah Pearson
-
-    .collapse.navbar-collapse#bs-navbar-collapse
-      ul.nav.navbar-nav.navbar-right
-        li: a(href='projects.html').fa.fa-bar-chart &nbsp; Projects
-        li: a(href='about.html').fa.fa-user &nbsp; About
-        li: a(href='skills.html').fa.fa-cogs &nbsp; Skills
-        li: a(href='img/SarahMPearsonResumeOnline.pdf').fa.fa-file-text-o &nbsp; Resume
-
-.navbar.navbar-default.navbar-fixed-bottom
-  .container
-    a.fa.fa-envelope-o.fa-4x#email(href='mailto:sarahp@me.com') &nbsp;
-    p.navbar-text.i.fa.fa-copyright#copy &nbsp; 2015 Sarah Pearson
-    a.fa.fa-twitter.fa-4x(href='http://www.twitter.com/sasspearson') &nbsp;
+      .container
+        .navbar-header
+          button.navbar-toggle(data-toggle='collapse', data-target='#bs-navbar-collapse')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href='index.html') Sarah Pearson
+        #bs-navbar-collapse.collapse.navbar-collapse
+          ul.nav.navbar-nav.navbar-right
+            li
+              a.fa.fa-bar-chart(href='projects.html')   Projects
+            li
+              a.fa.fa-user(href='about.html')   About
+            li
+              a.fa.fa-cogs(href='skills.html')   Skills
+            li
+              a.fa.fa-paint-brush(href='design.html')   Design
+            li
+              a.fa.fa-file-text-o(href='img/SarahMPearsonResumeOnline.pdf')   Resume
+    .navbar.navbar-default.navbar-fixed-bottom
+      .container
+        a#email.fa.fa-envelope-o.fa-4x(href='mailto:sarahp@me.com')  
+        p#copy.navbar-text.i.fa.fa-copyright   2015 Sarah Pearson
+        a.fa.fa-twitter.fa-4x(href='http://www.twitter.com/sasspearson') &nbsp;
 
 

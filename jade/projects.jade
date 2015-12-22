@@ -9,186 +9,133 @@ html(lang='en')
     link(href='css/index.css', rel='stylesheet')
     link(href='css/projects.css', rel='stylesheet')
     link(href='vendor/fontawesome/css/font-awesome.css', rel='stylesheet')
-    script(type='text/javascript', src='js/projects.js')
     title  Sarah Pearson | Projects
   body
-    include nav
-    .row.hidden-xs
+    nav.navbar.navbar-default(role='navigation')
+      .container
+        .navbar-header
+          button.navbar-toggle(data-toggle='collapse', data-target='#bs-navbar-collapse')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href='index.html') Sarah Pearson
+        #bs-navbar-collapse.collapse.navbar-collapse
+          ul.nav.navbar-nav.navbar-right
+            li
+              a.fa.fa-bar-chart(href='projects.html')   Projects
+            li
+              a.fa.fa-user(href='about.html')   About
+            li
+              a.fa.fa-cogs(href='skills.html')   Skills
+            li
+              a.fa.fa-file-text-o(href='img/SarahMPearsonResumeOnline.pdf')   Resume
+    .navbar.navbar-default.navbar-fixed-bottom
+      .container
+        a#email.fa.fa-envelope-o.fa-4x(href='mailto:sarahp@me.com')  
+        p#copy.navbar-text.i.fa.fa-copyright   2015 Sarah Pearson
+        a.fa.fa-twitter.fa-4x(href='http://www.twitter.com/sasspearson')  
+    .row
+      .col-xs-12
+        p.kind ICPSR Membership Page Update
+    .row
+      .col-sm-12.hidden-xs
+        a(href='http://www.icpsr.umich.edu/icpsrweb/content/membership/index.html', target='_blank')
+          p#membership
+      .col-xs-12.visible-xs
+        a(href='http://www.icpsr.umich.edu/icpsrweb/content/membership/index.html', target='_blank')
+          img.img-responsive.capstone(src='img/old-membership-page.jpg', alt='screen shot of old I C P S R membership page')
+        p.description.center
+          | ICPSR's old membership page.  I was in charge of redesigning the new look.  Click the picture to see my update
+    .row
       .col-xs-12
         p.kind Capstone
-    .row.hidden-xs
-      .col-xs-6
+    .row
+      .col-xs-12
         p.projects Hoppy Days
         a(href='http://hoppy.sarahmpearson.com', target='_blank')
           img.img-responsive.capstone(src='img/Home.jpg')
-        a.btn.btn-danger#hoppyGit(href='https://github.com/SarahMPearson/capstone', role='button', target='_blank').fa.fa-github-alt &nbsp View on Github
-        a.btn.btn-danger#hoppy(href='http://hoppy.sarahmpearson.com', role='button', target='_blank').fa.fa-beer &nbsp Visit Site
-      .col-xs-6
-    .row.hidden-xs
+      .col-xs-12.col-sm-6.col-sm-offset-3
+        a.btn.btn-danger.fa.fa-github-alt(href='https://github.com/SarahMPearson/capstone', role='button', target='_blank') &nbsp View on Github
+        a.btn.btn-danger.fa.fa-beer(href='http://hoppy.sarahmpearson.com', role='button', target='_blank') &nbsp Visit Site
+      .col-sm-6
+    .row
       .col-xs-12
         p.kind Capstone 2
-    .row.hidden-xs
-      .col-xs-6
+    .row
+      .col-xs-12
         p.projects SongHouse
         a(href='http://songhouse.herokuapp.com', target='_blank')
-          img.img-responsive.capstone(src='img/Home-L.jpg')
-        a.btn.btn-danger#hoppyGit(href='https://github.com/SarahMPearson/songHouse', role='button', target='_blank').fa.fa-github-alt &nbsp View on Github
-        a.btn.btn-danger#hoppy(href='http://songhouse.herokuapp.com', role='button', target='_blank').fa.fa-music &nbsp Visit Site
-      .col-xs-6
-    .row.hidden-xs
+          img.img-responsive.capstone(src='img/songHouse.jpg')
+      .col-xs-12.col-sm-6.col-sm-offset-3
+        a.btn.btn-danger.fa.fa-github-alt(href='https://github.com/SarahMPearson/songHouse', role='button', target='_blank') &nbsp View on Github
+        a.btn.btn-danger.fa.fa-music(href='http://songhouse.herokuapp.com', role='button', target='_blank') &nbsp Visit Site
+      .col-sm-6
+    .row
       .col-xs-12
         p.kind Hack Nashville 6
-    .row.border.hidden-xs
-      .col-xs-6
+    .row
+      .col-xs-12
         p.projects NashvesTN
         a(href='http://nashvestn.herokuapp.com/', target='_blank')
           img.img-responsive.capstone(src='img/NashvesTN.png')
-        a.btn.btn-info#hoppyGit(href='https://github.com/banjeremy/nashvestn-server', role='button', target='_blank').fa.fa-github-alt &nbsp View on Github
-        a.btn.btn-info#hoppy(href='http://nashvestn.herokuapp.com/', role='button', target='_blank').fa.fa-check &nbsp Visit Site
-        a.btn.btn-info#hoppy2(href='https://play.google.com/store/apps/details?id=com.ionicframework.gpnashvestn202992', role='button', target='_blank').fa.fa-android &nbsp View on Google Play
-      .col-xs-6
-    .row.hidden-xs
+      .col-xs-12.col-sm-6.col-sm-offset-3
+        a.btn.btn-info.fa.fa-github-alt(href='https://github.com/banjeremy/nashvestn-server', role='button', target='_blank') &nbsp View on Github
+        a.btn.btn-info.fa.fa-check(href='http://nashvestn.herokuapp.com/', role='button', target='_blank') &nbsp Visit Site
+        a.btn.btn-info.fa.fa-android(href='https://play.google.com/store/apps/details?id=com.ionicframework.gpnashvestn202992', role='button', target='_blank') &nbsp View on Google Play
+      .col-sm-6
+    .row
       .col-xs-12
         p.kind iOS Games
-    .row.border.hidden-xs
-      .col-xs-6.col-md-4.col-xs-6.col-md-4
-        p.projects Caddy Hack
-        a(href='https://play.google.com/store/apps/details?id=com.ionicframework.llsgolf414388&hl=en', target='_blank')
-          img.img-responsive.photo3(src='img/caddyHack.png')
-      .col-xs-6.col-md-4.col-xs-6.col-md-4
-        p.description Use your phones gyroscope to get the golfball into the hole!  Made with Ionic, HTML5, Canvas, and Xcode/AndroidSDK
-        p.description TEAM: Liza Carter, Logan Richardson
-      .col-xs-6.col-md-4.col-xs-6.col-md-4
-        a.btn.btn-info#caddyGit(href='https://github.com/LizaHCarter/lls-golf', role='button', target='_blank').fa.fa-github-alt &nbsp View on Github
-        a.btn.btn-info#caddyPlay(href='https://play.google.com/store/apps/details?id=com.ionicframework.llsgolf414388&hl=en', role='button', target='_blank').fa.fa-android &nbsp View on Google Play
-    .row.border.hidden-xs
-      .col-xs-6.col-md-4.col-xs-6.col-md-4
-        p.projects Gravity Flip
-        a(href='https://play.google.com/store/apps/details?id=daveboling.gravity.flip&hl=en', target='_blank')
-          img.img-responsive.photo3(img='img', src='img/gravityFlip.png')
-      .col-xs-6.col-md-4.col-xs-6.col-md-4
-        p.description Avoid the asteroids flying through the sky!  Be careful flying around in space can get confusing and the gravity can change!
-        p.description TEAM: Dave Boiling, Zoe Ames, Matt Keef, Mikey Badr
-      .col-xs-6.col-md-4.col-xs-6.col-md-4
-            a.btn.btn-info#gravityGit(href='https://github.com/kadowki/falldown', role='button', target='_blank').fa.fa-github-alt &nbsp View on Github
-            a.btn.btn-info#gravityPlay(href='https://play.google.com/store/apps/details?id=daveboling.gravity.flip&hl=en', role='button', target='_blank').fa.fa-android &nbsp View on Google Play
-    .row.hidden-xs
+    .well
+      .row
+        .col-xs-12.col-sm-6
+          p.projects Caddy Hack
+          a(href='https://play.google.com/store/apps/details?id=com.ionicframework.llsgolf414388&hl=en', target='_blank')
+            img.img-responsive.photo3(src='img/caddyHack.png')
+        .col-xs-12.col-sm-6
+          p.description
+            | Use your phones gyroscope to get the golfball into the hole!  Made with Ionic, HTML5, Canvas, and Xcode/AndroidSDK
+          p.description TEAM: Liza Carter, Logan Richardson
+          a.btn.btn-info.fa.fa-github-alt(href='https://github.com/LizaHCarter/lls-golf', role='button', target='_blank') &nbsp View on Github
+          a.btn.btn-info.fa.fa-android(href='https://play.google.com/store/apps/details?id=com.ionicframework.llsgolf414388&hl=en', role='button', target='_blank') &nbsp View on Google Play
+    .well
+      .row
+        .col-xs-12.col-sm-6
+          p.projects Gravity Flip
+          a(href='https://play.google.com/store/apps/details?id=daveboling.gravity.flip&hl=en', target='_blank')
+            img.img-responsive.photo3(img='img', src='img/gravityFlip.png')
+        .col-xs-12.col-sm-6
+          p.description
+            | Avoid the asteroids flying through the sky!  Be careful flying around in space can get confusing and the gravity can change!
+          p.description TEAM: Dave Boiling, Zoe Ames, Matt Keef, Mikey Badr
+          a.btn.btn-info.fa.fa-github-alt(href='https://github.com/kadowki/falldown', role='button', target='_blank') &nbsp View on Github
+          a.btn.btn-info.fa.fa-android(href='https://play.google.com/store/apps/details?id=daveboling.gravity.flip&hl=en', role='button', target='_blank') &nbsp View on Google Play
+    .row
       .col-xs-12
         p.kind Phaser Games
-    .row.border.hidden-xs
-      .col-xs-6.col-md-4.col-xs-6.col-md-4
-        p.projects Pirates Booty
-        a(href='http://www.sarahmpearson.com/mario/', target='_blank')
-          img.img-responsive.pirate(src='img/piratesBooty.png')
-      .col-xs-6.col-md-4.col-xs-6.col-md-4
-        p.description A side scroller game, use your arrows to navigate to level 2!  Built with Phaser.io
-        p.description TEAM: Zoe Ames, Adam Barnhard, Joy Pratt
-      .col-xs-6.col-md-4.col-xs-6.col-md-4
-        a.btn.btn-info#marioGit(href='https://github.com/ABarnhard/mario', role='button', target='_blank').fa.fa-github-alt &nbsp View on Github
-        a.btn.btn-info#marioPlay(href='http://www.sarahmpearson.com/mario/', role='button', target='_blank').fa.fa-play &nbsp Play Game
-    .row.border.hidden-xs
-      .col-xs-6.col-md-4.col-xs-6.col-md-4
-        p.projects RoundUp
-        a(href='http://www.sarahmpearson.com/roundup/', target='_blank')
-          img.img-responsive.pirate(src='img/roundUpLogo.png')
-      .col-xs-6.col-md-4.col-xs-6.col-md-4
-        p.description Collect the stars and diamonds before the time runs out! Built with Phaser.io
-        p.description TEAM: Adam Barnhard, Michael Barreiro
-      .col-xs-6.col-md-4.col-xs-6.col-md-4
-        a.btn.btn-info#roundupGit(href='https://github.com/ABarnhard/roundup', role='button', target='_blank').fa.fa-github-alt &nbsp View on Github
-        a.btn.btn-info#roundupPlay(href='http://www.sarahmpearson.com/roundup/', role='button', target='_blank').fa.fa-play &nbsp Play Game
-
-
-    .row.visible-xs
-      .col-xs-12
-        p.kindSMALL Capstone
-    .row.visible-xs
-      .col-xs-12
-        p.projectsSMALL Hoppy Days
-        a(href='http://hoppy.sarahmpearson.com', target='_blank')
-          img.img-responsive.capstoneSMALL(src='img/Home.jpg')
-        a.btn-block.btn.btn-danger.btn-lg#gitSMALL(href='https://github.com/SarahMPearson/capstone', role='button', target='_blank').fa.fa-github-alt &nbsp View on Github
-        a.btn-block.btn.btn-danger.btn-lg#gitSMALL(href='http://hoppy.sarahmpearson.com', role='button', target='_blank').fa.fa-beer &nbsp Visit Site
-    .row.visible-xs
-      .col-xs-12
-        p.kindSMALL Capstone 2
-    .row.visible-xs
-      .col-xs-12
-        p.projectsSMALL SongHouse
-        a(href='http://songhouse.herokuapp.com', target='_blank')
-          img.img-responsive.capstoneSMALL(src='img/Home-L.jpg')
-        a.btn-block.btn.btn-danger.btn-lg#gitSMALL(href='https://github.com/SarahMPearson/songHouse', role='button', target='_blank').fa.fa-github-alt &nbsp View on Github
-        a.btn-block.btn.btn-danger.btn-lg#gitSMALL(href='http://songhouse.herokuapp.com', role='button', target='_blank').fa.fa-music &nbsp Visit Site
-
-    .row.visible-xs
-      .col-xs-12
-        p.kindSMALL Hack Nashville 6
-    .row.visible-xs
-      .col-xs-12
-        p.projectsSMALL NashvesTN
-        a(href='http://nashvestn.herokuapp.com/', target='_blank')
-          img.img-responsive.capstoneSMALL(src='img/NashvesTN.png')
-        a.btn-block.btn.btn-info.btn-lg#gitSMALL(href='https://github.com/banjeremy/nashvestn-server', role='button', target='_blank').fa.fa-github-alt &nbsp View on Github
-        a.btn-block.btn.btn-info.btn-lg#gitSMALL(href='http://nashvestn.herokuapp.com/', role='button', target='_blank').fa.fa-check &nbsp Visit Site
-        a.btn-block.btn.btn-info.btn-lg#gitSMALL(href='https://play.google.com/store/apps/details?id=com.ionicframework.gpnashvestn202992', role='button', target='_blank').fa.fa-android &nbsp View on Google Play
-    .row.visible-xs
-      .col-xs-12
-        p.kindSMALL iOS Games
-    .row.visible-xs
-      .col-xs-12
-        p.projectsSMALL Caddy Hack
-    .row.visible-xs
-      .col-xs-12
-        a(href='https://play.google.com/store/apps/details?id=com.ionicframework.llsgolf414388&hl=en', target='_blank')
-          img.img-responsive.photo3SMALL(src='img/caddyHack.png')
-    .row.visible-xs
-      .col-xs-12
-        p.descriptionSMALL Use your phones gyroscope to get the golfball into the hole!  Made with Ionic, HTML5, Canvas, and Xcode/AndroidSDK
-        p.descriptionSMALL TEAM: Liza Carter, Logan Richardson
-        a.btn-block.btn.btn-info.btn-lg#gitSMALL(href='https://github.com/LizaHCarter/lls-golf', role='button', target='_blank').fa.fa-github-alt &nbsp View on Github
-        a.btn-block.btn.btn-info.btn-lg#gitSMALL(href='https://play.google.com/store/apps/details?id=com.ionicframework.llsgolf414388&hl=en', role='button', target='_blank').fa.fa-android &nbsp View on Google Play
-    .row.visible-xs
-      .col-xs-12
-        p.projectsSMALL Gravity Flip
-    .row.visible-xs
-      .col-xs-12
-        a(href='https://play.google.com/store/apps/details?id=daveboling.gravity.flip&hl=en', target='_blank')
-          img.img-responsive.photo3SMALL(img='img', src='img/gravityFlip.png')
-    .row.visible-xs
-      .col-xs-12
-        p.description Avoid the asteroids flying through the sky!  Be careful flying around in space can get confusing and the gravity can change!
-        p.description TEAM: Dave Boiling, Zoe Ames, Matt Keef, Mikey Badr
-        a.btn-block.btn.btn-info.btn-lg#gitSMALL(href='https://github.com/kadowki/falldown', role='button', target='_blank').fa.fa-github-alt &nbsp View on Github
-        a.btn-block.btn.btn-info.btn-lg#gitSMALL(href='https://play.google.com/store/apps/details?id=daveboling.gravity.flip&hl=en', role='button', target='_blank').fa.fa-android &nbsp View on Google Play
-    .row.visible-xs
-      .col-xs-12
-        p.kindSMALL Phaser Games
-    .row.visible-xs
-      .col-xs-12
-        p.projectsSMALL Pirates Booty
-    .row.visible-xs
-      .col-xs-12
-        a(href='http://www.sarahmpearson.com/mario/', target='_blank')
-          img.img-responsive.pirateSMALL(src='img/piratesBooty.png')
-    .row.visible-xs
-      .col-xs-12
-        p.description A side scroller game, use your arrows to navigate to level 2!  Built with Phaser.io
-        p.description TEAM: Zoe Ames, Adam Barnhard, Joy Pratt
-        a.btn-block.btn.btn-info.btn-lg#gitSMALL(href='https://github.com/ABarnhard/mario', role='button', target='_blank').fa.fa-github-alt &nbsp View on Github
-        a.btn-block.btn.btn-info.btn-lg#gitSMALL(href='http://www.sarahmpearson.com/mario/', role='button', target='_blank').fa.fa-play &nbsp Play Game
-    .row.visible-xs
-      .col-xs-12
-        p.projectsSMALL RoundUp
-    .row.visible-xs
-      .col-xs-12
-        a(href='http://www.sarahmpearson.com/roundup/', target='_blank')
-          img.img-responsive.pirateSMALL(src='img/roundUpLogo.png')
-    .row.visible-xs
-      .col-xs-12
-        p.description Collect the stars and diamonds before the time runs out! Built with Phaser.io
-        p.description TEAM: Adam Barnhard, Michael Barreiro
-        a.btn-block.btn.btn-info.btn-lg#gitSMALL(href='https://github.com/ABarnhard/roundup', role='button', target='_blank').fa.fa-github-alt &nbsp View on Github
-        a.btn-block.btn.btn-info.btn-lg#gitSMALL(href='http://www.sarahmpearson.com/roundup/', role='button', target='_blank').fa.fa-play &nbsp Play Game
-
+    .well
+      .row
+        .col-xs-12.col-sm-6
+          p.projects Pirates Booty
+          a(href='http://www.sarahmpearson.com/mario/', target='_blank')
+            img.img-responsive.pirate(src='img/piratesBooty.png')
+        .col-xs-12.col-sm-6
+          p.description
+            | A side scroller game, use your arrows to navigate to level 2!  Built with Phaser.io
+          p.description TEAM: Zoe Ames, Adam Barnhard, Joy Pratt
+          a.btn.btn-info.fa.fa-github-alt(href='https://github.com/ABarnhard/mario', role='button', target='_blank') &nbsp View on Github
+          a.btn.btn-info.fa.fa-play(href='http://www.sarahmpearson.com/mario/', role='button', target='_blank') &nbsp Play Game
+    .well
+      .row
+        .col-xs-12.col-sm-6
+          p.projects RoundUp
+          a(href='http://www.sarahmpearson.com/roundup/', target='_blank')
+            img.img-responsive.pirate(src='img/roundUpLogo.png')
+        .col-xs-12.col-sm-6
+          p.description Collect the stars and diamonds before the time runs out! Built with Phaser.io
+          p.description TEAM: Adam Barnhard, Michael Barreiro
+          a.btn.btn-info.fa.fa-github-alt(href='https://github.com/ABarnhard/roundup', role='button', target='_blank') &nbsp View on Github
+          a.btn.btn-info.fa.fa-play(href='http://www.sarahmpearson.com/roundup/', role='button', target='_blank') &nbsp Play Game
   script(src='vendor/jquery/dist/jquery.js')
   script(src='vendor/bootstrap/dist/js/bootstrap.min.js')

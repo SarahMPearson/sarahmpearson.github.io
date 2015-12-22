@@ -11,128 +11,92 @@ html(lang='en')
     link(href='vendor/fontawesome/css/font-awesome.css', rel='stylesheet')
     title  Sarah Pearson | Designer
   body
-    include nav
-    .container.hidden-xs
+    nav.navbar.navbar-default(role='navigation')
+      .container
+        .navbar-header
+          button.navbar-toggle(data-toggle='collapse', data-target='#bs-navbar-collapse')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href='index.html') Sarah Pearson
+        #bs-navbar-collapse.collapse.navbar-collapse
+          ul.nav.navbar-nav.navbar-right
+            li
+              a.fa.fa-bar-chart(href='projects.html')   Projects
+            li
+              a.fa.fa-user(href='about.html')   About
+            li
+              a.fa.fa-cogs(href='skills.html')   Skills
+            li
+              a.fa.fa-file-text-o(href='img/SarahMPearsonResumeOnline.pdf')   Resume
+    .navbar.navbar-default.navbar-fixed-bottom
+      .container
+        a#email.fa.fa-envelope-o.fa-4x(href='mailto:sarahp@me.com')  
+        p#copy.navbar-text.i.fa.fa-copyright   2015 Sarah Pearson
+        a.fa.fa-twitter.fa-4x(href='http://www.twitter.com/sasspearson')  
+    .container
       .row
         .col-xs-12
           p.kind Photoshop
       .row
-        .col-xs-4
+        .col-xs-12.col-sm-6
           p.projects Brandy Clark Album Release Invite
           a(href='http://www.brandyclarkmusic.com', target='_blank')
-            img.img-responsive.photoshop(src='img/BC Evite 10.29.jpeg')
-        .col-xs-4
+            img.img-responsive.photoshop(src='img/BC Evite 10.29.jpg', alt='Brandy Clark Album Release Invite')
+        .col-xs-12.col-sm-6
           p.projects Patrick Joseph Showcase E-Blast
           a(href='https://www.facebook.com/PJMSongs', target='_blank')
-            img.img-responsive.photoshop(src='img/PJM Writers night 6.jpeg')
-        .col-xs-4
+            img.img-responsive.photoshop(src='img/PJM Writers night 6.jpg', alt="Patrick Joseph Music Writer's Night e blast")
+      .row
+        .col-xs-12.col-sm-6
           p.projects Hits Magazine Ad
           a(href='http://www.warnerchappell.com', target='_blank')
-            img.img-responsive.photoshop2(src='img/HITSad3Small.jpg')
-      .row
-        .col-xs-4
+            img.img-responsive.photoshop(src='img/HITSad3Small.jpg', alt='Warner Chappell Hits Magazine Ad')
+        .col-xs-12.col-sm-6
           p.projects Music Row magazine Ad
           a(href='#', target='_blank')
-            img.img-responsive.photoshop(src='img/Josh Turner.jpg')
-        .col-xs-4
+            img.img-responsive.photoshop(src='img/Josh Turner.jpg', alt='Music Row Magazine Ad featuring Josh Turner')
+      .row
+        .col-xs-12.col-sm-6
           p.projects NashvesTN Mobile Splash Screens
           a(href='http://nashvestn.herokuapp.com/', target='_blank')
-            img.img-responsive.photoshop2(src='img/nashvesTNlogoLandscape.png')
-        .col-xs-4
+            img.img-responsive.photoshop(src='img/nashvesTNlogoLandscape.png', alt='Front page of the NashvesTN application')
+        .col-xs-12.col-sm-6
+          p.projects Personal Web Page
+          a(href='http://www.eddielanedorsey.com', target='_blank')
+            img.img-responsive.photoshop(src='img/eddieLane.png', alt='Front page of a personal website for Eddie Lane Dorsey')
+      .row
+        .col-xs-12.col-sm-6
           p.projects Gravity Flip Mobile Splash Screens
           a(href='https://play.google.com/store/apps/details?id=daveboling.gravity.flip&hl=en', target='_blank')
-            img.img-responsive.photoshop(src='img/gravityFlip 1024.jpg')
-      .row
-        .col-xs-4
+            img.img-responsive.photoshop(src='img/gravityFlip 1024.jpg', alt='Icon for Gravity Flip game')
+        .col-xs-12.col-sm-6
           p.projects All Access Pass
           a(href='#', target='_blank')
-            img.img-responsive.photoshop2(src='img/BrandyClarkAllAccess.jpg')
-        .col-xs-4
-          p.projects Personal Web Page
-          a(href="http://www.eddielanedorsey.com", target='_blank')
-            img.img-responsive.photoshop2(src="img/eddieLane.png")
+            img.img-responsive.photoshop(src='img/BrandyClarkAllAccess.jpg', alt='All Access Pass for Brandy Clark')
       .row
         .col-xs-12
           p.kind Video
       .row.border
-        .col-xs-12.col-sm-6.col-md-8.col-xs-12.col-sm-6.col-md-8
-          p.projects Getting To Know Brandy Clark
+        .col-xs-12.col-sm-8
+          p.projects
+            | Getting To Know Brandy Clark
             .embed-responsive.embed-responsive-16by9
               iframe.embed-responsive-item(src='http://www.youtube.com/embed/7twxI4hmPhA', allowfullscreen='allowfullscreen')
-        .col-xs-6.col-md-4
-          p.description This is a video for Warner Bros. recording artist Brandy Clark where Sarah filmed, and edited the video of Brandy's team. Edited with Final Cut Express
+        .col-xs-12.col-sm-4
+          p.description
+            | This is a video for Warner Bros. recording artist Brandy Clark where Sarah filmed, and edited the video of Brandy's team. Edited with Final Cut Express
       .row.border
-        .col-xs-12.col-sm-6.col-md-8.col-xs-12.col-sm-6.col-md-8
-          p.projects Jingle Strong Documentary
+        .col-xs-12.col-sm-8
+          p.projects
+            | Jingle Strong Documentary
             .embed-responsive.embed-responsive-16by9
               iframe.embed-responsive-item(src='http://www.youtube.com/embed/YbNz_GcnOJ8', allowfullscreen='allowfullscreen')
-        .col-xs-6.col-md-4
-          p.description This is a video for Music City Jamboree.  Sarah was a videographer for this project.
-
-    .container.visible-xs
-      .row
-        .col-xs-12
-          p.kindSMALL Photoshop
-      .row
-        .col-xs-12
-          p.projectsSMALL Brandy Clark Album Release Invite
-      .row
-        .col-xs-12
-          a(href='http://www.brandyclarkmusic.com', target='_blank')
-            img.img-responsive.photoshopSMALL(src='img/BC Evite 10.29.jpeg')
-      .row
-        .col-xs-12
-          p.projectsSMALL Patrick Joseph Showcase E-Blast
-      .row
-        .col-xs-12
-          a(href='https://www.facebook.com/PJMSongs', target='_blank')
-            img.img-responsive.photoshopSMALL(src='img/PJM Writers night 6.jpeg')
-      .row
-        .col-xs-12
-          p.projectsSMALL Hits Magazine Ad
-          a(href='http://www.warnerchappell.com', target='_blank')
-            img.img-responsive.photoshop2SMALL(src='img/HITSad3Small.jpg')
-      .row
-        .col-xs-12
-          p.projectsSMALL Music Row magazine Add
-      .row
-        .col-xs-12
-          a(href='#', target='_blank')
-            img.img-responsive.photoshopSMALL(src='img/Josh Turner.jpg')
-      .row
-        .col-xs-12
-          p.projectsSMALL NashvesTN Mobile Splash Screens
-      .row
-          a(href='http://nashvestn.herokuapp.com/', target='_blank')
-            img.img-responsive.photoshop1SMALL(src='img/nashvesTNlogoLandscape.png')
-      .row
-        .col-xs-12
-          p.projectsSMALL Gravity Flip Mobile Splash Screens
-      .row
-        .col-xs-12
-          a(href='https://play.google.com/store/apps/details?id=daveboling.gravity.flip&hl=en', target='_blank')
-            img.img-responsive.photoshopSMALL(src='img/gravityFlip 1024.jpg')
-      .row
-        .col-xs-12
-          p.kindSMALL Video
-      .row
-        .col-xs-12
-          p.projectsSMALL Getting To Know Brandy Clark
-            .embed-responsive.embed-responsive-16by9
-              iframe.embed-responsive-item(src='http://www.youtube.com/embed/7twxI4hmPhA', allowfullscreen='allowfullscreen')
-      .row
-        .col-xs-12
-          p.descriptionSMALL This is a video for Warner Bros. recording artist Brandy Clark where Sarah filmed, and edited the video of Brandy's team. Edited with Final Cut Express
-      .row.border
-        .col-xs-12.col-sm-6.col-md-8.col-xs-12.col-sm-6.col-md-8
-          p.projects Jingle Strong Documentary
-            .embed-responsive.embed-responsive-16by9
-              iframe.embed-responsive-item(src='http://www.youtube.com/embed/YbNz_GcnOJ8', allowfullscreen='allowfullscreen')
-      .row
-        .col-xs-12
-          p.description This is a video for Music City Jamboree.  Sarah was a videographer for this project.
-
-
-
+        .col-xs-12.col-sm-4
+          p.description
+            | This is a video for Music City Jamboree.  Sarah was a videographer for this project.
     script(src='vendor/jquery/dist/jquery.js')
     script(src='vendor/bootstrap/dist/js/bootstrap.min.js')
+
+
