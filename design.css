@@ -1,0 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+/*@import url(http://fonts.googleapis.com/css?family=Lobster+Two);*/
+
+body{
+  margin-bottom: 20%;
+}
+
+a{
+  display: block;
+}
+.projects{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.3em;
+  color: black;
+  text-align: center;
+  margin-top: 15px;
+}
+
+
+.kind {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size:3em;
+  text-align: center;
+  color: black;
+}
+
+.kindSMALL {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size:3em;
+  text-align: center;
+  color: black;
+}
+
+.border{
+  border: 1px solid gray;
+  background color: rgba(0,0,0, 0.5);
+  margin-bottom: 1%;
+}
+
+.description{
+  margin-top: 50%;
+  padding: 5%;
+}
+
+.img-responsive.photoshop{
+  margin: 0 auto;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+
+
+@media(max-width:768px){
+  .description{
+    margin-top: 15px;
+  }
+}
