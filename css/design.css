@@ -32,12 +32,6 @@ a{
   color: black;
 }
 
-.border{
-  border: 1px solid gray;
-  background color: rgba(0,0,0, 0.5);
-  margin-bottom: 1%;
-}
-
 .description{
   margin-top: 50%;
   padding: 5%;

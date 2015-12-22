@@ -9,6 +9,10 @@ a{
   display:block;
 }
 
+.center{
+  text-align: center;
+}
+
 /*****  PROJECTS PAGE *******/
 
 img.photo3, .photo4{
@@ -19,8 +23,6 @@ img.photo3, .photo4{
 }
 
 img.capstone{
-  display: block;
-  max-width: 100%;
   margin: 0 auto;
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -35,6 +37,17 @@ img.pirate {
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#membership{
+  background-image: url('../img/old-membership-page.jpg');
+  margin: 0 auto;
+  width:800px;
+  height: 447px;
+}
+#membership:active, 
+#membership:hover{
+  background-image: url('../img/new-membership-page.jpg');
 }
 
 /**** PLAY Button ****/
@@ -87,8 +100,12 @@ img.pirate {
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-
   }
+
+  #membership{
+    width:90%;
+  }
+
 
   .btn.btn-info.fa.fa-github-alt,
   .btn.btn-info.fa.fa-android,
@@ -97,8 +114,8 @@ img.pirate {
   .btn.btn-danger.fa.fa-github-alt,
   .btn.btn-danger.fa.fa-beer,
   .btn.btn-info.fa.fa-check {
-
     max-width: 250px;
   }
 
 }
+
