@@ -5,43 +5,20 @@ body{
   margin-bottom: 20%;
 }
 
+a{
+  display:block;
+}
+
 /*****  PROJECTS PAGE *******/
 
 img.photo3, .photo4{
-  margin-left: 109%;
-  margin-right: 30%;
-  margin-top: 1%;
-  margin-bottom: 4%;
+  margin: 0 auto;
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-
-    -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
-
 }
 
-img.photo3SMALL, .photo4SMALL{
-  margin-top: 4%;
-  margin-left: 60%;
-  margin-right: 50%;
-  margin-bottom: 4%;
-
-}
-
-img.photo3, .photo4:hover{
-    -webkit-transform:scale(1.25); /* Safari and Chrome */
-    -moz-transform:scale(1.25); /* Firefox */
-    -ms-transform:scale(1.25); /* IE 9 */
-    -o-transform:scale(1.25); /* Opera */
-     transform:scale(1.25);
-
-}
-
-.capstone{
+img.capstone{
   display: block;
   max-width: 100%;
   margin-left: 50%;
@@ -50,172 +27,45 @@ img.photo3, .photo4:hover{
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
-
-        -webkit-transition: all 1s ease;
-         -moz-transition: all 1s ease;
-           -o-transition: all 1s ease;
-          -ms-transition: all 1s ease;
-              transition: all 1s ease;
-
-}
-
-.capstoneSMALL{
-  display: block;
-  max-width: 100%;
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 img.pirate {
-margin-left: 30%;
-margin-right: 30%;
-margin-top: 0%;
-margin-bottom: 2%;
-max-height: 100%;
-max-width: 50%;
+  margin: 0 auto 30px;
+  max-height: 100%;
+  max-width: 50%;
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-
-
-      -webkit-transition: all 1s ease;
-       -moz-transition: all 1s ease;
-         -o-transition: all 1s ease;
-        -ms-transition: all 1s ease;
-            transition: all 1s ease;
-}
-
-//*****  BUTTONS ****/
-a.btn {
-  display: inline-block;
-  margin-left: 80%;
-  margin-top: 5%;
-  margin-bottom: 1%;
 }
 
 /**** PLAY Button ****/
 
-#hoppy{
-  display: inline-block;
-  margin-top: 2%;
-  margin-left: 50%;
-  margin-right: auto;
-  margin-bottom: 1%;
+.btn.btn-info.fa.fa-github-alt,
+.btn.btn-info.fa.fa-android,
+.btn.btn-info.fa.fa-play,
+.btn.btn-danger.fa.fa-music,
+.btn.btn-danger.fa.fa-github-alt,
+.btn.btn-danger.fa.fa-beer,
+.btn.btn-info.fa.fa-check
+{
+  display: block;
+  margin: 10px auto;
+  max-width: 350px;
+  padding: 15px;
 }
 
-#hoppy2{
-  display: inline-block;
-  margin-top: 2%;
-  margin-left: 50%;
-  margin-right: auto;
-  margin-bottom: 2%;
-}
 
-#gitSMALL{
-  margin-top: 6%;
-  font-size: 150%;
-}
-
-#hoppyGit{
-  display: inline-block;
-  margin-top: 2%;
-  margin-left: 50%;
-  margin-right: auto;
-}
-
-#hoppyGitSMALL{
-  display: inline-block;
-  margin: 5%;
-
-}
-
-#hoppyGit:hover:{
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-}
-
-#caddyGit{
-  display: inline-block;
-  margin-top: 20%;
-  margin-left: 38%;
-  margin-right: 10%;
-}
-#caddyPlay{
-  display: inline-block;
-  margin-top: 8%;
-  margin-left: 35%;
-  margin-right: auto;
-  margin-bottom: 19%;
-}
-
-#gravityGit{
-  display: inline-block;
-  margin-top: 20%;
-  margin-left: 38%;
-  margin-right: 10%;
-}
-
-#gravityPlay{
-  display: inline-block;
-  margin-top: 8%;
-  margin-left: 35%;
-  margin-right: auto;
-  margin-bottom: 19%;
-}
-
-#marioPlay{
-  display: inline-block;
-  margin-top: 6%;
-  margin-left: 46%;
-  margin-right: 50%;
-  margin-bottom: auto;
-}
-
-#marioGit{
-  display: inline-block;
-  margin-top: 11%;
-  margin-left: 43%;
-  margin-right: 45%;
-  margin-bottom: 2%;
-}
-
-#roundupGit{
-  display: inline-block;
-  margin-top: 11%;
-  margin-left: 43%;
-  margin-right: 45%;
-  margin-bottom: 2%;
-}
-
-#roundupPlay{
-  display: inline-block;
-  margin-top: 6%;
-  margin-left: 46%;
-  margin-right: 50%;
-  margin-bottom: auto;
-}
 /********** GAME NAMES ****************/
 
 .projects{
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  margin-left: 30%;
-  margin-right: 30%;
-  margin-bottom: 4%;
+  text-align: center;
+  margin: 5px 30% 4% 30%;
   font-size: 1.8em;
   color: black;
   text-shadow: 1px 3px 2px rgba(150, 150, 150, 1);
 }
 
-.projectsSMALL {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 1.8em;
-  text-align: center;
-  color: black;
-  text-shadow: 1px 3px 2px rgba(150, 150, 150, 1);
-  margin-top: 5%;
-}
 
 .kind {
   font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -224,20 +74,32 @@ a.btn {
   color: black;
 }
 
-.kindSMALL {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size:3em;
-  text-align: center;
-  color: black;
-  margin-top: 5%;
-}
-/********* BORDER ********/
-.border{
-  border: 1px solid gray;
-  margin-bottom: 1%;
-  margin-left: 2%;
-}
 
 .description{
-  padding: 5%;
+  padding: 15px 5px;
+}
+
+@media(max-width:856px){
+  a{ display: block;}
+  img.capstone{
+    display: block;
+    margin: 0 auto;
+    max-width:90%;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+  }
+
+  .btn.btn-info.fa.fa-github-alt,
+  .btn.btn-info.fa.fa-android,
+  .btn.btn-info.fa.fa-play,
+  .btn.btn-danger.fa.fa-music,
+  .btn.btn-danger.fa.fa-github-alt,
+  .btn.btn-danger.fa.fa-beer,
+  .btn.btn-info.fa.fa-check {
+
+    max-width: 250px;
+  }
+
 }
