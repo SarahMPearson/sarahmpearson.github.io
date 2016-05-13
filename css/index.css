@@ -279,6 +279,7 @@ html {
 }
 
 .topCard{
+  min-width: 212%;
   background: url('../img/design.png') no-repeat top left;
   background-size: cover;
   height: 500px;
@@ -300,21 +301,20 @@ html {
   text-transform: uppercase;
 }
 
-.designLargeFont{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 7.2em;
-  color: #000;
-  text-transform: uppercase;
+.navbar{
+  margin-bottom: 0;
 }
-
-  .navbar{
-    margin-bottom: 0;
-  }
 
  @media(max-width: 992px){
     .main-left,
     .main-right {
       width: 100%;
+    }
+
+    .navbar-brand,
+    .collapse.navbar-collapse{
+      float: none;
+      text-align: center;
     }
 
  }
