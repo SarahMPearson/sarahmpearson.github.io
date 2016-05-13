@@ -101,7 +101,7 @@ a:hover{
   left: 20%;
   margin-right: -150%;
 }
-.fa-linkedin-square:before {
+/*.fa-linkedin-square:before {
   position: absolute;
   top: 25%;
   margin-left: 15%;
@@ -113,7 +113,7 @@ a:hover{
     top: 25%;
       margin-left: 9%;
   }
-}
+}*/
 
 .navbar.navbar-default.navbar-fixed-bottom{
   font-size: 0.75em;
@@ -214,3 +214,107 @@ a.clickPhotography{
   margin: 40px auto;
   display: block;
 }
+
+/*a.photographer {
+    opacity: 0;
+    transition: opacity 1300ms
+}
+
+a.photographer:nth-child(1)  { transition-delay:  200ms }
+a.photographer:nth-child(2)  { transition-delay: 1200ms }
+a.photographer:nth-child(3)  { transition-delay:  800ms }
+a.photographer:nth-child(4)  { transition-delay:  300ms }
+a.photographer:nth-child(5)  { transition-delay:  700ms }
+a.photographer:nth-child(6)  { transition-delay:  600ms }
+a.photographer:nth-child(7)  { transition-delay:  400ms }
+a.photographer:nth-child(8)  { transition-delay:  900ms }
+a.photographer:nth-child(9)  { transition-delay:  700ms }
+a.photographer:nth-child(10) { transition-delay:   50ms }
+a.photographer:nth-child(11)  { transition-delay:  800ms }
+a.photographer:nth-child(12) { transition-delay:   50ms }
+
+a.photographer:hover {
+    opacity: 1
+}*/
+
+/* TRYING NEW LAYOUT */
+
+html {
+ height: 100%;
+ margin-bottom: 1px;
+ overflow-y: scroll;
+ overflow-x: hidden;
+}
+
+.main{
+  width: 99%;
+  margin-top: 0px;
+  background-color: #00000;
+  min-height: 700px;
+  max-height: 1200px;
+  margin-bottom: 60px;
+}
+
+.main-left{
+  width:49%;
+  float: left;
+  cursor: pointer;
+}
+
+.main-right{
+  width: 49%;
+  float: right;
+}
+
+.leftCard{
+  background: url('../img/spCape1.jpg') no-repeat top right;
+  background-size: cover;
+  height:1200px;
+  margin: -15px 0 5px 0;
+}
+.leftCard:active,
+.leftCard:hover{
+  background: url('../img/spCape2.jpg') no-repeat top right;
+  background-size: cover;
+}
+
+.topCard{
+  background: url('../img/design.png') no-repeat top left;
+  background-size: cover;
+  height: 500px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.bottomCard{
+  background: url('../img/smp-taking-photo.jpg') no-repeat top left;
+  background-size: cover;
+  height: 500px;
+  cursor: pointer;
+}
+
+.photographyLargeFont{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 7.2em;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.designLargeFont{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 7.2em;
+  color: #000;
+  text-transform: uppercase;
+}
+
+  .navbar{
+    margin-bottom: 0;
+  }
+
+ @media(max-width: 992px){
+    .main-left,
+    .main-right {
+      width: 100%;
+    }
+
+ }

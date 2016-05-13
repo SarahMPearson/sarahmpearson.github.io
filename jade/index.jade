@@ -16,46 +16,24 @@ html(lang='en')
   body
     include nav
     .container
-      .page-header.hidden-xs
-        .row.hidden-xs
-          .col-xs-2.col-md-2
-            a.link(href='https://github.com/SarahMPearson', target='_blank').fa.fa-github.fa-5x
-          .col-xs-8.col-md-8
-            p.words
-              a.photographer(href='projects.html')
-                | Web Developer |
-              a.photographer(href='design.html')
-                | Designer |
-              a.photographer(href='gallery.html')
-                | Photographer
-          .col-xs-2.col-md-2
-            a.link(href='https://www.linkedin.com/in/sarahpearson', target='_blank').fa.fa-linkedin-square.fa-5x
-      .row.visible-xs
-        .col-xs-3.col-xs-offset-2
-          a.linkSMALL(href='https://github.com/SarahMPearson', target='_blank').fa.fa-github.fa-5x
-        .col-xs-3.col-xs-offset-2
-          a.linkSMALL(href='https://www.linkedin.com/in/sarahpearson', target='_blank').fa.fa-linkedin-square.fa-5x
-      .row.visible-xs#small
-        .col-xs-12
-          p.wordsSMALL
-            a.photographer(href='projects.html')
-              | Web Developer |
-      .row.visible-xs
-        .col-xs-12
-          p.wordsSMALL
-            a.photographer(href='design.html')
-              | Designer |
-      .row.visible-xs
-        .col-xs-12
-          p.wordsSMALL
-            a.photographer(href='gallery.html')
-              | Photographer
-
-    .row.hidden-xs
-      .col-xs-4.col-xs-offset-4
-        img.img-responsive#photo1(img='img', src='img/spCape2.png')
-      .col-xs-4
-
+i
+    .main
+      .main-left
+        a(href="about.html")
+        .row.leftCard
+          p.photographyLargeFont
+            | Sarah M. Pearson
+      .main-right
+        .row.topCard
+          a(href="design.html")
+            .col-xs-12
+            p.photographyLargeFont
+              |Design
+        .row.bottomCard
+          a(href="gallery.html")
+            .col-xs-12
+              p.photographyLargeFont
+                |Photography
 
     script(src='vendor/jquery/dist/jquery.js')
     script(src='vendor/bootstrap/dist/js/bootstrap.min.js')
