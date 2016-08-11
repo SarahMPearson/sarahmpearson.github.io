@@ -32,6 +32,10 @@ input.ng-invalid, select.ng-invalid{
   color: black;
 }
 
+.navbar-default .navbar-nav > li > a{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 @media (max-width: 1000px){
   .navbar-default .navbar-brand {
     font-family: 'Source Sans Pro', sans-serif;
@@ -117,44 +121,29 @@ a:hover{
 
 .navbar.navbar-default.navbar-fixed-bottom{
   font-size: 0.75em;
-  text-align: right;
+  /*text-align: right;*/
 }
 
 /********************* COPYRIGHT INFO *******************/
 #copy{
   font-size: 1em;
   display: inline-block;
-  text-align: center;
+/*  text-align: center;*/
 }
 
 @media (max-width: 980px){
-  #copy{
+  /*#copy{
     float: left;
-  }
+  }*/
 }
 
-.navbar-text#email{
-  font-size: 2em;
+a#email,
+a#twitter{
+  font-size: 4em;
   display: inline-block;
-  text-align: center;
+  padding: 0 10px;
 }
 
-.fa.fa.twitter{
-  font-size: 2em;
-  display: inline-block;
-  top: 5px;
-}
-
-#medium{
-  max-width: 25%;
-  margin-top: 7%;
-}
-
-#medium:hover{
-  text-decoration: none;
-  color: rgba(0,0,0, .7);
-
-}
 
 p.words{
   font-size: 4em;
@@ -290,7 +279,7 @@ html {
 .bottomCard{
   background: url('../img/smp-taking-photo.jpg') no-repeat top left;
   background-size: cover;
-  height: 500px;
+  height: 650px;
   cursor: pointer;
 }
 
@@ -317,4 +306,25 @@ html {
       text-align: center;
     }
 
+ }
+
+ @media(max-width: 768px){
+    .photographyLargeFont{
+      font-size: 5.2em;
+      margin-top: 5px;
+    }
+
+    .leftCard{
+      background-size: cover;
+      height:500px;
+      margin: -15px 0 5px 0;
+    }
+    .topCard{
+      min-width: 150%;
+      height: 500px;
+    }
+    .bottomCard{
+      height: 500px;
+      min-width: 150%;
+    }
  }
