@@ -15,6 +15,7 @@
 body{
   background-color: white;
   margin-bottom: 5%;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 input.ng-invalid, select.ng-invalid{
@@ -32,7 +33,7 @@ input.ng-invalid, select.ng-invalid{
   color: black;
 }
 
-.navbar-default .navbar-nav > li > a{
+.navbar-nav > li {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
