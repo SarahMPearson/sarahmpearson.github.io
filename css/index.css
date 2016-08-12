@@ -295,19 +295,7 @@ html {
   margin-bottom: 0;
 }
 
- @media(max-width: 992px){
-    .main-left,
-    .main-right {
-      width: 100%;
-    }
 
-    .navbar-brand,
-    .collapse.navbar-collapse{
-      float: none;
-      text-align: center;
-    }
-
- }
 
  @media(max-width: 768px){
     .photographyLargeFont{
@@ -328,4 +316,30 @@ html {
       height: 500px;
       min-width: 150%;
     }
+ }
+
+  @media(max-width: 992px){
+    .main-left,
+    .main-right {
+      width: 100%;
+    }
+
+    .navbar-brand,
+    .collapse.navbar-collapse{
+      float: none;
+      text-align: center;
+    }
+    .leftCard{
+      height:600px;
+
+    }
+    .topCard{
+      min-width: 300%;
+      height: 500px;
+    }
+    .bottomCard{
+      height: 500px;
+      min-width: 150%;
+    }
+
  }
