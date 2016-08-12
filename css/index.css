@@ -58,10 +58,6 @@ input.ng-invalid, select.ng-invalid{
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-/*.navbar-default .navbar-nav > li > a:hover {
-  text-shadow: 1px 3px 3px rgba(0,0,0,.4);
-}*/
-
 @media (min-width: 480px){
   .navbar-default .navbar-nav > li > a:hover {
     text-shadow: 1px 3px 3px rgba(0,0,0,.4);
@@ -132,11 +128,6 @@ a:hover{
 /*  text-align: center;*/
 }
 
-@media (max-width: 980px){
-  /*#copy{
-    float: left;
-  }*/
-}
 
 a#email,
 a#twitter{
@@ -145,11 +136,10 @@ a#twitter{
   padding: 0 10px;
 }
 
-
 p.words{
   font-size: 4em;
   text-align: center;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Amatic SC', sans-serif;
   color: #6304B2;
 }
 
@@ -157,7 +147,7 @@ p.words{
   p.words{
     font-size: 4.2em;
     text-align: center;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Amatic SC', sans-serif;
     color: #6304B2;
   }
 }
@@ -165,7 +155,7 @@ p.words{
 p.wordsSMALL{
   font-size: 4em;
   text-align: center;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Amatic SC', sans-serif;
   color: #6304B2;
 }
 
@@ -205,27 +195,6 @@ a.clickPhotography{
   display: block;
 }
 
-/*a.photographer {
-    opacity: 0;
-    transition: opacity 1300ms
-}
-
-a.photographer:nth-child(1)  { transition-delay:  200ms }
-a.photographer:nth-child(2)  { transition-delay: 1200ms }
-a.photographer:nth-child(3)  { transition-delay:  800ms }
-a.photographer:nth-child(4)  { transition-delay:  300ms }
-a.photographer:nth-child(5)  { transition-delay:  700ms }
-a.photographer:nth-child(6)  { transition-delay:  600ms }
-a.photographer:nth-child(7)  { transition-delay:  400ms }
-a.photographer:nth-child(8)  { transition-delay:  900ms }
-a.photographer:nth-child(9)  { transition-delay:  700ms }
-a.photographer:nth-child(10) { transition-delay:   50ms }
-a.photographer:nth-child(11)  { transition-delay:  800ms }
-a.photographer:nth-child(12) { transition-delay:   50ms }
-
-a.photographer:hover {
-    opacity: 1
-}*/
 
 /* TRYING NEW LAYOUT */
 
@@ -246,7 +215,7 @@ html {
 }
 
 .main-left{
-  width:49%;
+  width: 49%;
   float: left;
   cursor: pointer;
 }
@@ -262,17 +231,17 @@ html {
   height:1200px;
   margin: -15px 0 5px 0;
 }
-.leftCard:active,
+
 .leftCard:hover{
   background: url('../img/spCape2.jpg') no-repeat top right;
   background-size: cover;
 }
 
 .topCard{
-  min-width: 212%;
-  background: url('../img/design.png') no-repeat top left;
+  background: url('../img/design.jpg') no-repeat top left;
   background-size: cover;
   height: 500px;
+  width: 210%;
   margin-bottom: 5px;
   cursor: pointer;
 }
@@ -301,20 +270,23 @@ html {
     .photographyLargeFont{
       font-size: 5.2em;
       margin-top: 5px;
+      padding-right: 28%;
     }
 
     .leftCard{
+      background: url('../img/spCape1.jpg') no-repeat top right;
       background-size: cover;
-      height:500px;
-      margin: -15px 0 5px 0;
+      height: 500px;
+      margin: 0 auto;
+      width: 100%;
     }
     .topCard{
-      min-width: 150%;
+      width: 100%;
       height: 500px;
     }
     .bottomCard{
       height: 500px;
-      min-width: 150%;
+      width: 100%;
     }
  }
 
@@ -322,6 +294,7 @@ html {
     .main-left,
     .main-right {
       width: 100%;
+      float: none;
     }
 
     .navbar-brand,
@@ -329,17 +302,26 @@ html {
       float: none;
       text-align: center;
     }
-    .leftCard{
-      height:600px;
 
-    }
-    .topCard{
-      min-width: 300%;
+    .leftCard{
+      background: url('../img/spCape1_small.jpg') no-repeat top right;
+      background-size: cover;
       height: 500px;
+    }
+    .leftCard:hover{
+      background: url('../img/spCape2_small.jpg') no-repeat top right;
+      background-size: cover;
+}
+
+    .topCard{
+      width: 167%;
     }
     .bottomCard{
       height: 500px;
-      min-width: 150%;
+      width: 100%;
+      display: block;
+      margin:0 auto;
     }
 
  }
+
