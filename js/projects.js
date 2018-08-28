@@ -11,4 +11,8 @@ $(document).ready(function(){
          $(this).height(10);
        });
    });
+   var year = new Date().getFullYear();
+
+  $("span.currentYear").html(year);
+
 });

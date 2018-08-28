@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="favicon.ico">
     <link href="vendor/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
@@ -12,8 +12,9 @@
     <title> Sarah Pearson | About</title>
   </head>
   <body>  
+    <header>
     <nav role="navigation" class="navbar navbar-default">
-      <div class="container">
+      <div class="container-fluid">
         <div class="navbar-header">
           <button data-toggle="collapse" data-target="#bs-navbar-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="index.html" class="navbar-brand">Sarah Pearson</a>
         </div>
@@ -29,33 +30,55 @@
         </div>
       </div>
     </nav>
-    <div class="navbar navbar-default navbar-fixed-bottom">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-5 col-sm-8">
-            <p id="copy" class="navbar-text i fa fa-copyright">2018 Sarah Pearson</p>
+  </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>About</h1>
+        </div>
+        <div class="col-sm-4">
+          <img class="img-responsive headshot" src="img/sarah_smile.png" alt="Sarah Pearson">
+        </div>
+        <div class="col-sm-8">
+          <p class="sarahpBio">Sarah Pearson moved to Nashville in the pursuit of a career in the Music Business.  
+            She earned her Bachelors Degree in Business Administration with an emphasis in Music Business from Belmont University.  
+            She spent eleven years working in the publishing industry at EMI Music Publishing, Patrick Jospeh Music Publishing and Warner/Chappell Publishing.  In that time she garnered memorable experiences, invaluable contacts, and made lifelong friends. 
+            Having spent years behind the scenes in the music industry her interests expanded beyond the land of entertainment and into the realm of software development.  Her creative soul demands an outlet.  This outlet is designing and creating websites, games, and software applications.In the future she’d like to combine her expertise in the entertainment industry and her knowledge in software development and create a mixed medium format that will provide a long and satisfying 
+            career.     
+        </div>
+        <!-- <div class="col-xs-12">
+          <img id="photo2" src="img/paper.jpg" alt=" ">
+          <h1 class="bio1">About</h1>
+          <p class="bio">
+            Sarah Pearson moved to Nashville in the pursuit of a career in the Music Business.  
+            She earned her Bachelors Degree in Business Administration with an emphasis in Music Business from Belmont University.  
+            She spent eleven years working in the publishing industry at EMI Music Publishing, Patrick Jospeh Music Publishing and 
+            Warner/Chappell Publishing.  In that time she garnered memorable experiences, invaluable contacts, and made lifelong friends. 
+            Having spent years behind the scenes in the music industry her interests expanded beyond the land of entertainment and 
+            into the realm of software development.  Her creative soul demands an outlet.  This outlet is designing and creating 
+            websites, games, and software applications.  In the future she’d like to combine her expertise in the entertainment 
+            industry and her knowledge in software development and create a mixed medium format that will provide a long and satisfying 
+            career.        
+          </p>
+        </div> -->
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-6 copyright">
+              &copy; <span class="currentYear">2014</span> Sarah Pearson</p>
+            </div>
+            <div class="col-xs-6 email">
+              <a id="email" href="mailto:sarahp@me.com"><span class="fa fa-envelope-o"></span> Contact</a>
+            </div>
           </div>
-          <div class="col-xs-7 col-sm-4"><a id="email" href="mailto:sarahp@me.com" class="fa fa-envelope-o fa-4x"></a><a id="twitter" href="http://www.twitter.com/sasspearson" class="fa fa-twitter fa-4x">&nbsp;</a></div>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12"><img id="photo2" img="img" src="img/paper.jpg">
-        <p class="bio1">About</p>
-        <p class="bio">
-          Sarah Pearson moved to Nashville in the pursuit of a career in the Music Business.  
-          She earned her Bachelors Degree in Business Administration with an emphasis in Music Business from Belmont University.  
-          She spent eleven years working in the publishing industry at EMI Music Publishing, Patrick Jospeh Music Publishing and 
-          Warner/Chappell Publishing.  In that time she garnered memorable experiences, invaluable contacts, and made lifelong friends. 
-          Having spent years behind the scenes in the music industry her interests expanded beyond the land of entertainment and 
-          into the realm of software development.  Her creative soul demands an outlet.  This outlet is designing and creating 
-          websites, games, and software applications.  In the future she’d like to combine her expertise in the entertainment 
-          industry and her knowledge in software development and create a mixed medium format that will provide a long and satisfying 
-          career.        
-        </p>
-      </div>
-    </div>
+    </footer>
     <script src="vendor/jquery/dist/jquery.js"></script>
     <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/projects.js"></script>
   </body>
 </html>

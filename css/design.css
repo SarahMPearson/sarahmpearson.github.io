@@ -2,9 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 /*@import url(http://fonts.googleapis.com/css?family=Lobster+Two);*/
 
-body{
-  margin-bottom: 20%;
-}
+
 
 a{
   display: block;
@@ -44,7 +42,9 @@ a{
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
-
+.design {
+  margin-bottom: 35px;
+}
 
 
 @media(max-width:768px){

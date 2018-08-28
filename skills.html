@@ -15,7 +15,7 @@
   </head>
   <body>
     <nav role="navigation" class="navbar navbar-default">
-      <div class="container">
+      <div class="container-fluid">
         <div class="navbar-header">
           <button data-toggle="collapse" data-target="#bs-navbar-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="index.html" class="navbar-brand">Sarah Pearson</a>
         </div>
@@ -32,58 +32,66 @@
       </div>
     </nav>
     <div class="navbar navbar-default navbar-fixed-bottom">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-xs-5 col-sm-8">
-            <p id="copy" class="navbar-text i fa fa-copyright">2018 Sarah Pearson</p>
+          <div class="col-xs-6 copyright">
+            &copy; <span class="currentYear">2014</span> Sarah Pearson</p>
           </div>
-          <div class="col-xs-7 col-sm-4"><a id="email" href="mailto:sarahp@me.com" class="fa fa-envelope-o fa-4x"></a><a id="twitter" href="http://www.twitter.com/sasspearson" class="fa fa-twitter fa-4x">&nbsp;</a></div>
+          <div class="col-xs-6 email">
+            <a id="email" href="mailto:sarahp@me.com"><span class="fa fa-envelope-o"></span> Contact</a>
+          </div>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-6 col-xs-12 skills">
-        <div class="fa fa-link fa-3x"></div>
-        <h3>User Interface/Experience
-          <h4 class="devicons devicons-html5">HTML</h4>
-          <h4 class="devicons devicons-css3"> CSS</h4>
-          <h4 class="devicons devicons-jquery">jQuery</h4>
-          <h4 class="devicons devicons-bootstrap"> Bootstrap</h4>
-          <h4 class="devicons devicons-less">  Less</h4>
-          <h4 class="devicons devicons-sass"> Sass</h4>
-        </h3>
+    <div class="container">
+      <div class="row">
+        <h1>Skills</h1>
+
+        <div class="col-md-6 skills">
+          <h2 class="card-title"><i class="fa fa-link"></i> UI/UX</h2>
+            <ul>
+              <li><span class="devicons devicons-html5"></span> HTML</li>
+              <li><span class="devicons devicons-css3"></span> CSS</li>
+              <li><span class="devicons devicons-jquery"></span> jQuery</li>
+              <li><span class="devicons devicons-bootstrap"></span> Bootstrap</li>
+              <li><span class="devicons devicons-less"></span>  Less</li>
+              <li><span class="devicons devicons-sass"></span> Sass </li>
+            </ul>
+
+        </div>
+        <div class="col-md-6 skills">
+          <h2 class="card-title"><i class="fa fa-laptop"></i> MEAN Stack</h2>
+            <ul>
+              <li><span class="devicons devicons-mongodb"></span> MongoDB</li>
+              <li><span class="devicons devicons-javascript_badge"></span> Express</li>
+              <li><span class="devicons devicons-angular"></span> Angular</li>
+              <li><span class="devicons devicons-nodejs"></span>  Node.js</li>
+            </ul>
+        </div>
       </div>
-      <div class="col-md-6 col-xs-12 skills">
-        <div class="fa fa-laptop fa-3x"></div>
-        <h3>MEAN Stack
-          <h4 class="devicons devicons-mongodb"> MongoDB</h4>
-          <h4 class="devicons devicons-javascript_badge"> Express</h4>
-          <h4 class="devicons devicons-angular"> Angular</h4>
-          <h4 class="devicons devicons-nodejs">  Node.js</h4>
-        </h3>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6 col-xs-12 skills">
-        <div class="fa fa-wrench fa-3x"></div>
-        <h3>Development
-          <h4 class="devicons devicons-grunt">  Grunt</h4>
-          <h4 class="devicons devicons-bower"> Bower</h4>
-          <h4 class="devicons devicons-gulp"> Gulp</h4>
-          <h4 class="devicons devicons-npm"> NPM</h4>
-          <h4 class="devicons devicons-github_alt"> GitHub</h4>
-        </h3>
-      </div>
-      <div class="col-xs-6 col-xs-12 skills">
-        <div class="fa fa-thumbs-o-up fa-3x"></div>
-        <h3>Programs
-          <h4>Microsoft Office</h4>
-          <h4>PhotoShop</h4>
-          <h4>Final Cut Express</h4>
-        </h3>
+      <div class="row">
+        <div class="col-md-6 skills">         
+          <h2 class="card-title"><i class="fa fa-wrench"></i> Development</h2>
+            <ul>
+              <li><span class="devicons devicons-grunt"></span>  Grunt</li>
+              <li><span class="devicons devicons-bower"></span> Bower</li>
+              <li><span class="devicons devicons-gulp"></span> Gulp</li>
+              <li><span class="devicons devicons-npm"></span> NPM</li>
+              <li><span class="devicons devicons-github_alt"></span> GitHub</li>
+            </ul>
+        </div>
+        <div class="col-xs-6 skills">          
+          <h2 class="card-title"><i class="fa fa-thumbs-o-up"></i> Programs</h2>
+            <ul>
+              <li>Microsoft Office</li>
+              <li>PhotoShop</li>
+              <li>Final Cut Express</li>
+            </ul>
+        </div>
       </div>
       <script src="vendor/jquery/dist/jquery.js"></script>
       <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script src="js/projects.js"></script>
     </div>
   </body>
 </html>

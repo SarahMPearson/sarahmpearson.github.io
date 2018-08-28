@@ -5,34 +5,23 @@ body{
   margin-bottom: 20%;
 }
 .about{
-  background-color: white;
+  background-color: #fff;
 }
 
 .bio{
   position: absolute;
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.5em;
-  line-height: 2.2;
-  top: 10%;
-  left: 20%;
-  right: 20%;
-  width: 60%;
-
-  /* Safari */
-  -webkit-transform: rotate(-2deg);
-
-  /*  Firefox */
-  -moz-transform: rotate(-2deg);
-
-  /* IE */
-  -ms-transform: rotate(-2deg);
-
-  /* Opera */
-  -o-transform: rotate(-2deg);
-
-  /* Internet Explorer */
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 2;
+    top: 13%;
+    left: 17%;
+    right: 20%;
+    width: 60%;
+    -webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+    -ms-transform: rotate(-2deg);
+    -o-transform: rotate(-2deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
 /* ABOUT TITLE */
@@ -66,7 +55,7 @@ body{
 }
 #photo2 {
    position: relative;
-   width: 100%; /* for IE 6 */
+   width: 94%; /* for IE 6 */
 }
 
 @media (max-width: 640px) {
@@ -78,15 +67,6 @@ body{
     }
   }
 
-@media (min-width: 640px) {
-  body {font-size:1rem;
-  }
-  .bio1 {font-size: 1.5em;
-  }
-  .bio{
-    font-size: 2em;
-  }
-}
 @media (min-width:900px) {
   body {font-size:1.2rem;
   }

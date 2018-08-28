@@ -13,8 +13,7 @@
 }
 
 body{
-  background-color: white;
-  margin-bottom: 5%;
+  background-color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   overflow-x: hidden;
 }
@@ -29,41 +28,17 @@ input.ng-invalid, select.ng-invalid{
 }
 
 .navbar-default .navbar-brand {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
   font-size: 280%;
   color: black;
 }
 
-.navbar-nav > li {
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-@media (max-width: 1000px){
-  .navbar-default .navbar-brand {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 200%;
-    color: black;
-  }
-}
-
-@media (max-width: 550px){
-  .navbar-default .navbar-brand {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 150%;
-    color: black;
-  }
-
 }
 .navbar-default .navbar-nav > li {
   font-size: 1em;
-  font-family: 'Source Sans Pro', sans-serif;
 }
 
-@media (min-width: 480px){
-  .navbar-default .navbar-nav > li > a:hover {
-    text-shadow: 1px 3px 3px rgba(0,0,0,.4);
-  }
-}
+
 
 img#photo1 {
   top: 250px;
@@ -92,7 +67,7 @@ a {
 }
 
 a:hover{
-  text-decoration: none;
+  text-decoration: underline;
   color: rgba(0,0,0, .7);
 }
 
@@ -103,38 +78,36 @@ a:hover{
   left: 20%;
   margin-right: -150%;
 }
-/*.fa-linkedin-square:before {
-  position: absolute;
-  top: 25%;
-  margin-left: 15%;
+
+.skills > ul {
+  padding-left: 0;
 }
 
-@media (max-width: 800px){
-  .fa-linkedin-square:before {
-    position: absolute;
-    top: 25%;
-      margin-left: 9%;
-  }
-}*/
-
-.navbar.navbar-default.navbar-fixed-bottom{
-  font-size: 0.75em;
-  /*text-align: right;*/
+.skills > ul li {
+  list-style-type: none;
+  font-size: 1.2em;
 }
+
 
 /********************* COPYRIGHT INFO *******************/
 #copy{
   font-size: 1em;
   display: inline-block;
-/*  text-align: center;*/
+}
+
+.copyright{
+  padding: 19px 15px 0;
 }
 
 
-a#email,
-a#twitter{
-  font-size: 4em;
-  display: inline-block;
-  padding: 0 10px;
+a#email{
+    display: inline-block;
+    padding: 19px 15px 0;
+    text-align: right;
+}
+
+.email{
+  text-align: right;
 }
 
 p.words{
@@ -167,13 +140,30 @@ p.wordsSMALL{
 .photographer{
   color:#6304B2;
 }
+
 a.photographer:hover{
   font-weight: bold;
   color: red;
 }
 
+.headshot{
+  border-radius: 25px;
+  width: 75%;
+  margin: 0 auto;
+}
 
-/******CAROUSEL ********/
+.sarahpBio {
+  padding: 20px;
+  font-weight: bold;
+  line-height: 1.8;
+  font-size: 1.2em;
+}
+
+.footer {
+  margin-top: 30px;
+}
+
+/*********************************************** CAROUSEL **************************************/
 .img-responsive.car {
   margin-left: auto;
   margin-right: auto;
@@ -190,7 +180,7 @@ a.photographer:hover{
   margin: auto;
 }
 
-a.clickPhotography{
+.clickPhotography{
   text-align: center;
   margin: 40px auto;
   display: block;
@@ -230,7 +220,7 @@ html {
   background: url('../img/spCape1.jpg') no-repeat top right;
   background-size: cover;
   height:1200px;
-  margin: -15px 0 5px 0;
+  margin: 0 0 5px 0;
 }
 
 .leftCard:hover{
@@ -238,11 +228,15 @@ html {
   background-size: cover;
 }
 
+a.noDecoration:hover{
+  text-decoration: none;
+}
+
 .topCard{
   background: url('../img/design.jpg') no-repeat top left;
   background-size: cover;
   height: 500px;
-  width: 210%;
+  width: 286%;
   margin-bottom: 5px;
   cursor: pointer;
 }
@@ -251,21 +245,75 @@ html {
   background: url('../img/smp-taking-photo.jpg') no-repeat top left;
   background-size: cover;
   height: 650px;
+  width: 200%;
   cursor: pointer;
 }
 
 .photographyLargeFont{
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 7.2em;
+  font-size: 5em;
   color: #fff;
   text-transform: uppercase;
+  margin-top: 15px;
 }
 
 .navbar{
   margin-bottom: 0;
 }
 
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
+  background-color: #fff;
+}
 
+/************************** Skills page ***************************/
+.skills{
+  text-align: center;
+  margin-bottom: 5%;
+  color: #000;
+}
+
+.card-title{
+  border-bottom: 1px solid #eee;
+  padding:0 0 15px;
+}
+
+
+/***************************************** MEDIA QUERIES **************************************/
+
+@media (max-width: 1000px){
+  .navbar-default .navbar-brand {
+    font-size: 200%;
+  }
+}
+
+@media(max-width: 992px){
+    .main-left,
+    .main-right {
+      width: 100%;
+      float: none;
+    }
+
+    .navbar-brand,
+    .collapse.navbar-collapse{
+      float: none;
+    }
+
+    .leftCard{
+      background: url('../img/spCape1_small.jpg') no-repeat top right;
+      background-size: cover;
+    }
+
+    .topCard{
+      width: 167%;
+    }
+
+    .bottomCard{
+      height: 500px;
+      width: 100%;
+      display: block;
+      margin:0 auto;
+    }
+ }
 
  @media(max-width: 768px){
     .photographyLargeFont{
@@ -281,48 +329,33 @@ html {
       margin: 0 auto;
       width: 100%;
     }
+
+    .leftCard .photographyLargeFont{
+      font-size: 4em;
+    }
     .topCard{
-      width: 100%;
+      width: 110%;
       height: 500px;
     }
     .bottomCard{
       height: 500px;
       width: 100%;
     }
+    .copyright,
+    .email{
+      font-size: .8em;
+    }
  }
 
-  @media(max-width: 992px){
-    .main-left,
-    .main-right {
-      width: 100%;
-      float: none;
-    }
-
-    .navbar-brand,
-    .collapse.navbar-collapse{
-      float: none;
-      text-align: center;
-    }
-
-    .leftCard{
-      background: url('../img/spCape1_small.jpg') no-repeat top right;
-      background-size: cover;
-      height: 500px;
-    }
-    .leftCard:hover{
-      background: url('../img/spCape2_small.jpg') no-repeat top right;
-      background-size: cover;
+@media (max-width: 550px){
+  .navbar-default .navbar-brand {
+    font-size: 150%;
+  }
 }
 
-    .topCard{
-      width: 167%;
-    }
-    .bottomCard{
-      height: 500px;
-      width: 100%;
-      display: block;
-      margin:0 auto;
-    }
-
- }
+ @media (min-width: 480px){
+  .navbar-default .navbar-nav > li > a:hover {
+    text-shadow: 1px 3px 3px rgba(0,0,0,.4);
+  }
+}
 

@@ -1,13 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 
-body{
-  background-color: rgba(220,220,220, 0.5);
-  margin-bottom: 20%;
-}
 
-a{
-  display:block;
-}
+
 
 .center{
   text-align: center;
@@ -52,14 +46,13 @@ img.pirate {
 
 /**** PLAY Button ****/
 
-.btn.btn-info.fa.fa-github-alt,
-.btn.btn-info.fa.fa-android,
-.btn.btn-info.fa.fa-play,
-.btn.btn-danger.fa.fa-music,
-.btn.btn-danger.fa.fa-github-alt,
-.btn.btn-danger.fa.fa-beer,
-.btn.btn-info.fa.fa-check
-{
+.btn.btn-info,
+.btn.btn-info,
+.btn.btn-info,
+.btn.btn-danger,
+.btn.btn-danger,
+.btn.btn-danger,
+.btn.btn-info {
   display: block;
   margin: 10px auto;
   max-width: 350px;
@@ -101,7 +94,7 @@ img.pirate {
 }
 
 @media(max-width:856px){
-  a{ display: block;}
+
   img.capstone{
     display: block;
     margin: 0 auto;
@@ -126,5 +119,11 @@ img.pirate {
     max-width: 250px;
   }
 
+}
+
+@media(max-width:768px){
+  .kind{
+    font-size: 2em;
+  }
 }
 
