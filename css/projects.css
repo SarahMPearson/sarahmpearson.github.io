@@ -1,6 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 
-
+.capstone{
+    display: block;
+    margin: 0 auto;
+    max-width:90%;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  }
 
 
 .center{
@@ -33,11 +40,13 @@ img.pirate {
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
-#membership{
+p#membership{
   background-image: url('../img/old-membership-page.jpg');
+  display: block;
   margin: 0 auto;
   width:800px;
   height: 447px;
+  text-align: center;
 }
 #membership:active,
 #membership:hover{
